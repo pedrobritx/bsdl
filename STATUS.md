@@ -27,7 +27,7 @@ last_updated: 2026-07-08
 | Milestone | Target | Status |
 |---|---|---|
 | M0 — BSF skeleton adopted | — | ✅ Done |
-| M0.5 — Published with wiki + boards | — | 🔄 In progress (repo ✅ · wiki content ⏳ · boards ⏳) |
+| M0.5 — Published with wiki + boards | — | 🔄 In progress (repo ✅ · wiki content ✅ auto-synced from `.wiki/` · boards ⏳) |
 | M1 — Product docs complete | — | ⏳ Pending |
 
 ## Blockers

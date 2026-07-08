@@ -1,0 +1,37 @@
+# Publishes .wiki/ to the repository's GitHub wiki (bsf.wiki.git).
+# The .wiki/ directory is the single source of truth for wiki content:
+# edits made directly in the wiki web UI will be overwritten on the next sync.
+# The wiki must have at least one page created via the web UI once (already done),
+# otherwise the wiki git remote does not exist.
+name: Sync wiki
+
+on:
+  push:
+    branches: [main]
+    paths: ['.wiki/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push .wiki/ to the wiki repository
+        run: |
+          git clone "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" /tmp/wiki
+          rsync -a --delete --exclude '.git' .wiki/ /tmp/wiki/
+          cd /tmp/wiki
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Wiki already up to date."
+          else
+            git commit -m "docs(wiki): sync from .wiki/ @ ${GITHUB_SHA::7}"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
