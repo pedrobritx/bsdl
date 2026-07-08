@@ -1,0 +1,21 @@
+---
+title: "Memory: Mistakes"
+owner: All
+status: Active
+last_updated: 2026-07-01
+---
+
+# Memory: Mistakes
+
+> Recurring mistakes and their fixes. Append-only. Checked by the Bug Fix playbook.
+
+## Format
+```
+### [YYYY-MM-DD] Short title
+Context:
+Entry:
+Applies to:
+```
+
+## Entries
+_None yet. Every project makes this file smarter._

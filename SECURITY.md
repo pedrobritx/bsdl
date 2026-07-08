@@ -1,21 +1,24 @@
+---
+title: Security Policy
+owner: Security Engineer
+status: Active
+last_updated: 2026-07-08
+related: [PROJECT_RULES]
+---
+
 # Security Policy
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+| Version | Supported |
+| ------- | --------- |
+| 0.1.x   | ✅        |
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+BSF is a documentation-and-process framework; "security updates" here means corrections to guidance in `constraints/security.md`, `recipes/`, and `playbooks/security_review.md`.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+- **Framework guidance flaws** (a recipe or constraint that would lead adopters to insecure implementations): open a GitHub issue with the `sev:2` label, or a private security advisory if disclosure would put adopters at risk.
+- **Repository/automation issues** (CI workflow, `automation/validate_docs.py`): open a private security advisory via GitHub's **Security → Report a vulnerability**.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+You can expect an acknowledgement within 7 days. Accepted reports are fixed following `playbooks/security_review.md` and recorded in `memory/mistakes.md`.
