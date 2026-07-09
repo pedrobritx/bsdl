@@ -24,10 +24,12 @@ last_updated: 2026-07-08
 - Entire scaffold (this branch's initial adoption commit) + `SECURITY.md`, `README.md`, `docs/oss/CONTRIBUTING.md`, `STATUS.md`, `HANDOFF.md`.
 
 ### Pending (requires `gh` CLI or web UI — not available in the publishing session)
-- Repo settings: mark as **template**, topics, delete-branch-on-merge (build brief §2.2).
+- Repo settings: mark as **template**, topics, delete-branch-on-merge (build brief §2.2). Consider `--visibility public` (template button, Pages, wiki visibility depend on it).
 - 27-label taxonomy (§2.3); branch protection requiring the `validate` check (§2.4).
-- Wiki: 14 content pages + `_Sidebar` + `_Footer` (§3) — wiki git remote is outside this session's access scope.
 - Five master Projects with fields and seed items (§4); manual view setup (H2).
+
+### Wiki (§3) — resolved differently than the brief
+Wiki content is authored in-repo under `.wiki/` (16 pages: 14 content + `_Sidebar` + `_Footer`) and published by `.github/workflows/wiki-sync.yml` on every push to `main` touching `.wiki/`. The repo — not the wiki web UI — is the source of truth for wiki content; UI edits are overwritten on next sync.
 
 ### Known issues
 - All `status: Draft` documents are stubs awaiting content.
