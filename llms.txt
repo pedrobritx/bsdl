@@ -1,0 +1,39 @@
+# BSDL — Britx Software Design Language
+
+> Constitution and operating framework for how britx (Pedro Henrique Bahia Brito) designs, builds, ships, and maintains software — written to be consumed by AI copilots as guardrails and retrieval context.
+
+Canonical text lives in this repository under `bsdl/`. The wiki and website are derived views.
+
+## Constitution (read first)
+
+- [Constitution index](bsdl/constitution/README.md): how to read it, the constitution map, the working rule
+- [Preamble](bsdl/constitution/preamble.md): why BSDL exists
+- [Foundations](bsdl/constitution/foundations.md): worldview, ontology, epistemology, axiology, ethics
+- [Principles](bsdl/constitution/principles.md): the ten constitutional principles
+- [Engineering Laws](bsdl/constitution/engineering-laws.md): principles as operational constraints
+- [Derived Frameworks](bsdl/constitution/derived-frameworks.md): lifecycle/architecture selection, AI collaboration model, documentation and failure models
+- [Reference Implementations](bsdl/constitution/reference-implementations.md): templates and heuristics
+
+## Body of the language
+
+- [Knowledge Base](bsdl/knowledge-base.md)
+- [Architecture, Design & Modeling](bsdl/architecture-design-modeling.md)
+- [Artificial Intelligence](bsdl/artificial-intelligence.md)
+- [Standards](bsdl/standards.md)
+- [Development](bsdl/development.md)
+- [Operations](bsdl/operations.md)
+- [Patterns](bsdl/patterns.md)
+- [Glossary](bsdl/glossary.md)
+
+## Operating framework (BSF)
+
+- [START_HERE](START_HERE.md): mandatory AI onboarding sequence
+- [PROJECT_RULES](PROJECT_RULES.md): governance, delegation levels, documentation standards
+- [Agents](agents/README.md): AI role definitions
+- [Decision Engine](decisions/README.md): pre-made policy answers
+
+## Optional
+
+- [Resources](bsdl/resources.md)
+- [Community](bsdl/community.md)
+- [About](bsdl/about.md)

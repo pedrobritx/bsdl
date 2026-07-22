@@ -1,8 +1,17 @@
-# Britx Software Framework (BSF)
+# BSDL — Britx Software Design Language
 
-**An AI-native operating system for designing, building, shipping, and maintaining software products.**
+**A constitution for software development, and the AI-native operating framework derived from it.**
 
 > The repository is the company. Humans and AI are just different kinds of employees.
+
+This repository holds two layers:
+
+| Layer | Where | What it is |
+|---|---|---|
+| **BSDL** — the constitution | [`bsdl/`](bsdl/README.md) | Worldview, values, principles, engineering laws, standards, patterns. The *why* and the *what must hold*. Canonical text; changes require an ADR. |
+| **BSF** — the framework | repo root (`START_HERE.md`, `agents/`, `playbooks/`, …) | The operating system derived from the constitution: how a project actually runs day to day. |
+
+**If you are an AI copilot**, start at [`CLAUDE.md`](CLAUDE.md) / [`AGENTS.md`](AGENTS.md); [`llms.txt`](llms.txt) indexes the canon for retrieval. **If you are human**, the [wiki](https://github.com/pedrobritx/bsdl/wiki) is the narrative tour.
 
 BSF is **model-agnostic**. It works with Claude Code, Codex, Gemini CLI, Cursor, Amp, or any future AI development tool. The framework — not the model — holds the company's memory, standards, and decision process.
 
@@ -35,6 +44,9 @@ Not a template. Not a prompt collection. An **operating system** for software pr
 
 | Path | What it is |
 |---|---|
+| `bsdl/` | **The BSDL canon** — constitution + numbered sections. Single source of truth for the design language. |
+| `CLAUDE.md` / `AGENTS.md` | AI session entry points. |
+| `llms.txt` | Retrieval index of the canon for AI tools. |
 | `START_HERE.md` | Universal entry point. Every AI session begins here. |
 | `PROJECT_RULES.md` | The constitution. Immutable principles and governance. |
 | `STATUS.md` | Live project dashboard. |

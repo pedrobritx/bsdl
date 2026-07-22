@@ -2,7 +2,7 @@
 title: Status
 owner: Product Manager
 status: Active
-last_updated: 2026-07-08
+last_updated: 2026-07-22
 ---
 
 # STATUS — Project Dashboard
@@ -28,6 +28,7 @@ last_updated: 2026-07-08
 |---|---|---|
 | M0 — BSF skeleton adopted | — | ✅ Done |
 | M0.5 — Published with wiki + boards | — | 🔄 In progress (repo ✅ · wiki content ✅ auto-synced from `.wiki/` · boards ⏳) |
+| M0.7 — BSDL canon imported (`bsdl/` + AI entry points + ADR-001) | — | 🔄 In review (PR from `claude/bsdl-design-system-ewtjqt`) |
 | M1 — Product docs complete | — | ⏳ Pending |
 
 ## Blockers
