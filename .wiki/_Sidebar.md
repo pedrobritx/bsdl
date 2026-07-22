@@ -4,6 +4,7 @@
 - [[FAQ]]
 
 **Concepts**
+- [[BSDL Constitution]]
 - [[Core Principles]]
 - [[Governance and Delegation]]
 - [[Agents and Roles]]
