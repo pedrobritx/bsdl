@@ -26,7 +26,6 @@ last_updated: 2026-07-22
 - New: `bsdl/**` (19 files), `CLAUDE.md`, `AGENTS.md`, `llms.txt`, `decisions/adr/001-bsdl-canon-three-surfaces.md`, `.wiki/BSDL-Constitution.md`. Edited: `README.md`, `.wiki/_Sidebar.md`, `.wiki/Home.md`, `STATUS.md`, `HANDOFF.md`.
 
 ### Pending
-- Human ratification of ADR-001 (merge the PR → flip status to Accepted).
 - Website surface: enable GitHub Pages in repo settings, then add a static-site workflow that renders `bsdl/` (toolchain deliberately not chosen yet — see ADR-001).
 - Constitution gaps: Governance / Evolution / Compliance procedures exist only as an empty Notion stub — draft and ratify them.
 - Notion "Untitled" constitution page was empty and was not imported.

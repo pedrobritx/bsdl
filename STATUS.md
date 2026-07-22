@@ -28,7 +28,7 @@ last_updated: 2026-07-22
 |---|---|---|
 | M0 — BSF skeleton adopted | — | ✅ Done |
 | M0.5 — Published with wiki + boards | — | 🔄 In progress (repo ✅ · wiki content ✅ auto-synced from `.wiki/` · boards ⏳) |
-| M0.7 — BSDL canon imported (`bsdl/` + AI entry points + ADR-001) | — | 🔄 In review (PR from `claude/bsdl-design-system-ewtjqt`) |
+| M0.7 — BSDL canon imported (`bsdl/` + AI entry points + ADR-001) | — | ✅ Done (PR #5 merged; ADR-001 Accepted) |
 | M1 — Product docs complete | — | ⏳ Pending |
 
 ## Blockers

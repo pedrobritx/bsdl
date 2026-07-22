@@ -1,7 +1,7 @@
 ---
 title: "ADR-001: BSDL canon lives in-repo; wiki and website are derived surfaces"
 owner: Software Architect
-status: Proposed
+status: Accepted
 last_updated: 2026-07-22
 ---
 
@@ -19,7 +19,7 @@ BSDL (the Britx Software Design Language — constitution, standards, patterns) 
 
 ## Decision
 
-Option 1, at delegation level L2 (recommended by AI, pending human confirmation — hence status Proposed).
+Option 1, at delegation level L2 — recommended by AI, ratified by the CEO via merge of PR #5 (2026-07-22).
 
 - `bsdl/` holds the ratified BSDL text (constitution + numbered sections), imported 2026-07-22 from the Notion export. Notion remains a drafting space only.
 - AI consumption layer: `CLAUDE.md` / `AGENTS.md` (session entry points) and `llms.txt` (retrieval index) at the repo root.
