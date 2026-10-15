@@ -1,48 +1,10 @@
 ---
-title: Status
-owner: Product Manager
+title: Polaris migration status
+owner: Maintainer
 status: Active
-last_updated: 2026-07-22
+last_updated: 2026-10-15
 ---
 
-# STATUS — Project Dashboard
+# Status
 
-> Live operational snapshot. Every AI session reads this after onboarding; every session that changes state updates it.
-
-## Health
-
-| Signal | Value |
-|---|---|
-| Overall | 🟢 Healthy |
-| Progress toward current milestone | 0% |
-| Deployment | Published: github.com/pedrobritx/bsf (template) |
-| Test coverage | — |
-| Documentation coverage | Skeleton complete |
-| Technical debt | None recorded |
-
-## Current sprint
-**Sprint 0 — Framework bootstrap.** Goal: fill VISION, PRODUCT, ARCHITECTURE; set delegation defaults.
-
-## Milestones
-| Milestone | Target | Status |
-|---|---|---|
-| M0 — BSF skeleton adopted | — | ✅ Done |
-| M0.5 — Published with wiki + boards | — | 🔄 In progress (repo ✅ · wiki content ✅ auto-synced from `.wiki/` · boards ⏳) |
-| M0.7 — BSDL canon imported (`bsdl/` + AI entry points + ADR-001) | — | ✅ Done (PR #5 merged; ADR-001 Accepted) |
-| M1 — Product docs complete | — | ⏳ Pending |
-
-## Blockers
-_None._
-
-## Known bugs
-_None._
-
-## Technical debt register
-| Item | Severity | Owner doc | ADR |
-|---|---|---|---|
-
-## Risks
-_None recorded._
-
-## Next milestone
-M1 — Product docs complete.
+Capability extraction is prepared on the refactor/polaris-capability-extraction review branch. This is a documentation/process relocation, not a runtime release. Cross-repository changes require coordinated review; Polaris removals merge only after destination changes are reviewed and available. No package, provider, environment or Figma configuration is changed.

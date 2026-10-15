@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *From zero to a scaffolded, governed project.* — [[Home]]
 
 ## Three ways to adopt BSF
@@ -18,16 +20,16 @@ The skeleton is generic on purpose. Before the first feature, make it *yours*:
 
 ## Your first session
 
-Point your AI tool at [`START_HERE.md`](https://github.com/pedrobritx/bsf/blob/main/START_HERE.md). It walks the mandatory onboarding sequence — constitution, vision, product, architecture, roadmap, status, handoff — then has the AI identify its role, pick a playbook, check the Decision Engine and memory, and respect constraints. Sessions end by updating `HANDOFF.md` and `STATUS.md`: *a session that doesn't hand off didn't happen.*
+Point your AI tool at [`START_HERE.md`](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/START_HERE.md). It walks the mandatory onboarding sequence — constitution, vision, product, architecture, roadmap, status, handoff — then has the AI identify its role, pick a playbook, check the Decision Engine and memory, and respect constraints. Sessions end by updating `HANDOFF.md` and `STATUS.md`: *a session that doesn't hand off didn't happen.*
 
 Then set up your work boards: [[Project Boards]].
 
 ---
 
 **→ In the repository**
-- [START_HERE.md](https://github.com/pedrobritx/bsf/blob/main/START_HERE.md) — the onboarding sequence
-- [PROJECT_RULES.md](https://github.com/pedrobritx/bsf/blob/main/PROJECT_RULES.md) — delegation defaults live here
-- [docs/product/VISION.md](https://github.com/pedrobritx/bsf/blob/main/docs/product/VISION.md) · [docs/product/PRODUCT.md](https://github.com/pedrobritx/bsf/blob/main/docs/product/PRODUCT.md)
+- [START_HERE.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/START_HERE.md) — the onboarding sequence
+- [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — delegation defaults live here
+- [docs/product/VISION.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/product/VISION.md) · [docs/product/PRODUCT.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/product/PRODUCT.md)
 - [decisions/decision-engine/](https://github.com/pedrobritx/bsf/tree/main/decisions/decision-engine)
 
 See also: [[Core Principles]] · [[Governance and Delegation]] · [[Project Boards]]

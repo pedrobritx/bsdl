@@ -1,24 +1,12 @@
 ---
-title: Security Policy
-owner: Security Engineer
+title: Polaris vulnerability reporting
+owner: Maintainer
 status: Active
-last_updated: 2026-07-08
-related: [PROJECT_RULES]
+last_updated: 2026-10-15
 ---
 
-# Security Policy
+# Vulnerability reporting
 
-## Supported Versions
+Polaris is governance and documentation tooling. Report guidance flaws to the owner; do not publish sensitive exploit details in a public issue. Use a repository private reporting channel only if it is enabled, or obtain an approved private channel from the owner.
 
-| Version | Supported |
-| ------- | --------- |
-| 0.1.x   | ✅        |
-
-BSF is a documentation-and-process framework; "security updates" here means corrections to guidance in `constraints/security.md`, `recipes/`, and `playbooks/security_review.md`.
-
-## Reporting a Vulnerability
-
-- **Framework guidance flaws** (a recipe or constraint that would lead adopters to insecure implementations): open a GitHub issue with the `sev:2` label, or a private security advisory if disclosure would put adopters at risk.
-- **Repository/automation issues** (CI workflow, `automation/validate_docs.py`): open a private security advisory via GitHub's **Security → Report a vulnerability**.
-
-You can expect an acknowledgement within 7 days. Accepted reports are fixed following `playbooks/security_review.md` and recorded in `memory/mistakes.md`.
+Sentinel maintains specialist security review guidance. The affected repository remains accountable for its own disclosure, fixes and evidence. No reporting response-time promise or application security certification is inferred from this framework.

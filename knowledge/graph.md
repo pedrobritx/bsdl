@@ -16,9 +16,9 @@ VISION → PRODUCT → USER_STORIES → UX_FLOWS → SCREENS
 ```
 
 ## Hubs
-- `docs/engineering/ARCHITECTURE.md` — technical hub. Names every system; links to owners.
-- `docs/product/PRODUCT.md` — product hub.
-- `docs/README.md` — global index.
+- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/ARCHITECTURE.md` — technical hub. Names every system; links to owners.
+- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/product/PRODUCT.md` — product hub.
+- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/README.md` — global index.
 
 ## Rules
 1. One source of truth — information lives in exactly one document.

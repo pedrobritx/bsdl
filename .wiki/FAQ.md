@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *Honest answers to the questions everyone asks first.* — [[Home]]
 
 ### Is this tied to Claude?
@@ -6,7 +8,7 @@ No. **Framework Over Tooling** is principle #10: BSF is plain Markdown in a git 
 
 ### Why not just a CLAUDE.md?
 
-A tool-specific config file works today and breaks on tool change — that's option 2 in [ADR-000](https://github.com/pedrobritx/bsf/blob/main/decisions/adr/000-adopt-bsf.md), considered and rejected. A single file also can't carry an org model, delegation levels, per-decision policies, append-only memory, and CI-enforced structure. BSF is what a CLAUDE.md wants to be when it grows up — and your AI tool's config file can simply say "read `START_HERE.md`".
+A tool-specific config file works today and breaks on tool change — that's option 2 in [ADR-000](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/decisions/adr/000-adopt-bsf.md), considered and rejected. A single file also can't carry an org model, delegation levels, per-decision policies, append-only memory, and CI-enforced structure. BSF is what a CLAUDE.md wants to be when it grows up — and your AI tool's config file can simply say "read `START_HERE.md`".
 
 ### How is this different from Scrum / Shape Up?
 
@@ -23,7 +25,7 @@ Honestly: no. Set your delegation defaults to L3/L4, ignore `docs/business/` and
 ---
 
 **→ In the repository**
-- [decisions/adr/000-adopt-bsf.md](https://github.com/pedrobritx/bsf/blob/main/decisions/adr/000-adopt-bsf.md) — the options considered
-- [README.md](https://github.com/pedrobritx/bsf/blob/main/README.md) — what BSF is and is not
+- [decisions/adr/000-adopt-bsf.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/decisions/adr/000-adopt-bsf.md) — the options considered
+- [README.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/README.md) — what BSF is and is not
 
 See also: [[Core Principles]] · [[Getting Started]]

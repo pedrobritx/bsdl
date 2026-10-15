@@ -2,7 +2,7 @@
 title: "Constraint: Cost"
 owner: CEO
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
 # Constraint: Cost
@@ -13,18 +13,11 @@ last_updated: 2026-07-01
 - **Any new recurring cost is L0.** No exceptions, no trials that auto-convert.
 - Prefer free tiers and services already in the stack before adding vendors.
 
-## Never introduce without explicit L0 approval
-- AWS (any service)
-- Kubernetes
-- Redis clusters / managed Redis (introduce caching only when measured need exists)
-- Dedicated vector DB (Pinecone etc.) — **pgvector on Supabase is the default** for embeddings/semantic search
-- Any per-seat SaaS
-
-## Default-stack bias
-- Storage: Supabase Storage first; Cloudflare R2 only for heavy file egress.
-- Background jobs: none until needed; then Trigger.dev or Inngest per Decision Engine.
-- Feature flags: PostHog (already present) before any flags vendor.
-- Secrets: platform env vars (e.g. Vercel) before a secrets manager.
+## Infrastructure and vendor decisions
+- New recurring spend, paid trials and per-seat services require explicit L0 approval.
+- Introduce infrastructure only with a concrete need, maintenance/exit costs and rollback plan.
+- Reuse services actually present and suitable in the project; do not assume a vendor is installed.
+- Historical vendor preferences and infrastructure avoid-list are retained in `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/profiles/web-typescript.md`. Adopting that profile does not approve spend or provisioning.
 
 ## Verification
 - PR reviewer checks new dependencies/services against this list.

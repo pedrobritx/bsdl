@@ -1,13 +1,15 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *How the company learns and remembers across sessions, projects, and models.* — [[Home]]
 
 ## The four memory files
 
 | File | Holds | Checked by |
 |---|---|---|
-| [preferences.md](https://github.com/pedrobritx/bsf/blob/main/memory/preferences.md) | Institutional preferences (Zustand over Context, never moment.js, boring technology wins) | AI, before choosing any pattern or library |
-| [lessons.md](https://github.com/pedrobritx/bsf/blob/main/memory/lessons.md) | Project-level lessons learned | Every release |
-| [mistakes.md](https://github.com/pedrobritx/bsf/blob/main/memory/mistakes.md) | Recurring mistakes and their fixes (append-only) | The Bug Fix playbook — "has this class of bug happened before?" |
-| [patterns.md](https://github.com/pedrobritx/bsf/blob/main/memory/patterns.md) | Successful reusable patterns from real work | Build phases; feeds recipes |
+| [preferences.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/memory/preferences.md) | Institutional preferences (Zustand over Context, never moment.js, boring technology wins) | AI, before choosing any pattern or library |
+| [lessons.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/memory/lessons.md) | Project-level lessons learned | Every release |
+| [mistakes.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/memory/mistakes.md) | Recurring mistakes and their fixes (append-only) | The Bug Fix playbook — "has this class of bug happened before?" |
+| [patterns.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/memory/patterns.md) | Successful reusable patterns from real work | Build phases; feeds recipes |
 
 All four share the same append format — dated entries with `Context / Entry / Applies to` — and preferences add a `Strength` field (`default | strong | absolute`).
 
@@ -29,7 +31,7 @@ The repository is a **graph, not a tree**. Each document owns one subject and li
 
 **→ In the repository**
 - [memory/](https://github.com/pedrobritx/bsf/tree/main/memory) — the four files
-- [knowledge/graph.md](https://github.com/pedrobritx/bsf/blob/main/knowledge/graph.md) — graph rules and hubs
-- [knowledge/glossary.md](https://github.com/pedrobritx/bsf/blob/main/knowledge/glossary.md) — canonical terms
+- [knowledge/graph.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/knowledge/graph.md) — graph rules and hubs
+- [knowledge/glossary.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/knowledge/glossary.md) — canonical terms
 
 See also: [[Document Standards]]

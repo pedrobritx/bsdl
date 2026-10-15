@@ -2,29 +2,26 @@
 title: "Memory: Preferences"
 owner: CEO
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
 # Memory: Preferences
 
-> Institutional preferences that survive individual conversations. AI checks this before choosing any pattern or library. Conflicts with `constraints/` are impossible by construction — constraints win.
+> Preferences are context, not universal law. Explicit current owner decisions and the repository's actual architecture guide their application. Surface conflicts with adopted hard constraints; do not pretend conflicts are impossible.
 
 ## Code
-- Prefer **Zustand** over Context API for shared state.
-- Prefer **React Server Components** and **Server Actions**.
-- Prefer **Tailwind**.
-- Always **Zod** at boundaries.
-- Never **moment.js** — `date-fns` / Temporal.
+- Write code, code comments, code instructions and code reviews in English (explicit owner instruction, 2026-10-15).
+- Historical web technology preferences are preserved in `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/profiles/web-typescript.md`; apply them only in an explicitly adopted matching context.
 
 ## Architecture
 - Simplicity over cleverness; boring technology wins.
-- pgvector before dedicated vector DBs.
+- Where an adopted PostgreSQL/Supabase profile fits, consider pgvector before adding a separate vector service; do not impose it on other architectures.
 - One vendor doing two jobs beats two vendors doing one each.
 
 ## Process
 - Dry-run before destructive or infra changes.
 - Terminal co-engineer mode for ops: command → output → analysis → refined command.
-- Explanations outside code blocks, never as inline annotations.
+- Explain decisions in clear prose. Keep useful code comments for constraints and non-obvious reasons; avoid comments that merely narrate the code.
 
 ## Format
 ```

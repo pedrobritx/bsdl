@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *The GitHub Projects layer: live work state for the framework's workflows.* — [[Home]]
 
 Boards hold **work state only** — specifications live in feature-spec instances in the repo, never in a card ([[Document Standards]]).
@@ -33,8 +35,8 @@ Copies inherit fields and draft items; link the copy to the product repo with `g
 ---
 
 **→ In the repository**
-- [playbooks/new_feature.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/new_feature.md) — the five phases the Feature Release board mirrors
-- [DONE.md](https://github.com/pedrobritx/bsf/blob/main/DONE.md) — the gate behind "In Review · DoD"
-- [templates/feature_spec.md](https://github.com/pedrobritx/bsf/blob/main/templates/feature_spec.md) — where specs live (not in cards)
+- [playbooks/new_feature.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/new_feature.md) — the five phases the Feature Release board mirrors
+- [DONE.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/DONE.md) — the gate behind "In Review · DoD"
+- [templates/feature_spec.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/templates/feature_spec.md) — where specs live (not in cards)
 
 See also: [[Playbooks]] · [[Getting Started]]

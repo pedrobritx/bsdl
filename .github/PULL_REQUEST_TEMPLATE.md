@@ -5,7 +5,7 @@
 <!-- One paragraph. Link the feature spec / bug report. -->
 
 ## AI Governance (if AI-authored)
-Confidence: · Assumptions: · Risks: · Escalations raised:
+Evidence: · Assumptions: · Risks: · Escalations raised:
 
 ## Definition of Done
 - [ ] `DONE.md` fully satisfied (N/A items justified below)

@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *The front door: what the Britx Software Framework is, and where everything lives.*
 
 > **The repository is the company. Humans and AI are just different kinds of employees.**
@@ -24,6 +26,6 @@ Each one, with the reasoning behind it: [[Core Principles]].
 ---
 
 **→ In the repository**
-- [README.md](https://github.com/pedrobritx/bsf/blob/main/README.md) — the public face and repository map
-- [START_HERE.md](https://github.com/pedrobritx/bsf/blob/main/START_HERE.md) — where every AI session begins
-- [PROJECT_RULES.md](https://github.com/pedrobritx/bsf/blob/main/PROJECT_RULES.md) — the constitution
+- [README.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/README.md) — the public face and repository map
+- [START_HERE.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/START_HERE.md) — where every AI session begins
+- [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — the constitution
