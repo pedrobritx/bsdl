@@ -1,42 +1,5 @@
-> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+# Project boards
 
-*The GitHub Projects layer: live work state for the framework's workflows.* — [[Home]]
+Optional board/view patterns now belong in [Axis project tracking guidance](https://github.com/pedrobritx/axis/blob/main/guides/project-tracking.md). A board stores work state and links; product specs, decisions and evidence stay in the product repository. The former five-master-board proposal is not a live resource inventory or a mandatory setup.
 
-Boards hold **work state only** — specifications live in feature-spec instances in the repo, never in a card ([[Document Standards]]).
-
-## The five master projects
-
-| Project | Purpose | Column field |
-|---|---|---|
-| **Axis · Kanban** | The daily driver. Columns mirror the work lifecycle with an explicit DoD gate: Backlog → Spec → In Progress → In Review · DoD → Blocked → Done. | `Stage` |
-| **Axis · Roadmap** | Now / Next / Later / Shipped horizons with Start/Target dates for the roadmap layout. | `Horizon` |
-| **Axis · Product Launch** | Phase-gated launch: Foundation → Build → Hardening → Launch Prep → Launch → Post-launch, with an explicit Go/No-Go field. | `Phase` |
-| **Axis · Feature Release** | Mirrors the five phases of the New Feature playbook exactly — the board *is* the playbook: 0 · Context → 1 · Design → 2 · Build → 3 · Quality → 4 · Ship & Learn → Done. | `Phase` |
-| **Axis · Bug Triage** | Severity-driven pipeline: New → Reproduced → Root-caused → Fix in progress → Verifying → Closed. | `Pipeline` |
-
-These five board patterns are reference designs, not a verified inventory of live boards. The audited existing [Axis Project Template](https://github.com/users/pedrobritx/projects/10) is separate; inspect its actual fields before copying.
-
-## The field taxonomy
-
-Shared by all five (so copies stay faithful): `Agent Role` (PM…Writer), `Delegation` (L0–L4), `Confidence` (number). Per-board: the column field above, plus `Playbook` and `Priority` (Kanban), `Milestone`/`Start`/`Target` (Roadmap), `Go/No-Go` and `Due` (Launch), `DoD` and `Target release` (Feature Release), `Severity` and `Regression?` (Bug Triage).
-
-**Labels ↔ fields:** repo labels mirror the board fields so issues carry their routing with them — `playbook:*` labels ↔ the `Playbook` field, `role:*` ↔ `Agent Role`, `L0`–`L4` ↔ `Delegation`, `sev:1`–`sev:4` ↔ `Severity`.
-
-## Instantiating per product (personal accounts)
-
-Marking Projects as reusable *templates* is an organization-only GitHub feature. On a personal account the pattern is: **keep the five masters pristine and copy them per product**:
-
-```
-gh project copy <number> --source-owner pedrobritx --target-owner pedrobritx --title "MyApp · Kanban"
-```
-
-Copies inherit fields and draft items; link the copy to the product repo with `gh project link`.
-
----
-
-**→ In the repository**
-- [playbooks/new_feature.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/new_feature.md) — the five phases the Feature Release board mirrors
-- [DONE.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/DONE.md) — the gate behind "In Review · DoD"
-- [templates/feature_spec.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/templates/feature_spec.md) — where specs live (not in cards)
-
-See also: [[Playbooks]] · [[Getting Started]]
+[[Home]]

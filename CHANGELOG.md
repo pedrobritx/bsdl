@@ -2,10 +2,16 @@
 title: Polaris changelog
 owner: Maintainer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
 # Changelog
+
+## Unreleased — 2026-10-16
+
+- Add explicit optional-discipline handoffs and preserve independent adoption.
+- Align repository ownership, remove obsolete process copies and record review evidence.
+
 
 ## Unreleased — 2026-10-15
 

@@ -2,7 +2,7 @@
 title: Glossary
 owner: All
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-16
 ---
 
 # Glossary
@@ -13,5 +13,6 @@ Project and domain terms. One definition per term; link, don't restate.
 |---|---|---|
 | ADR | Architectural Decision Record — permanent record of a significant decision. | `decisions/adr/` |
 | Delegation Level | How much autonomy AI has for a class of decision (L0–L4). | `PROJECT_RULES.md` |
-| Recipe | The company-standard implementation of a common feature. | `recipes/` |
-| Playbook | A repeatable workflow with required reading and checklist. | `playbooks/` |
+| Discipline | An independently usable engineering, design or security capability. | `integration/README.md` |
+| Handoff | Request context, source revision, expected artifacts and returned evidence. | `integration/README.md` |
+| Coverage gap | A requested scope without verified evidence or an assigned enabled capability. | `integration/README.md` |

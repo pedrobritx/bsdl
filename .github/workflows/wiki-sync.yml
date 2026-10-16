@@ -1,4 +1,4 @@
-# Publishes .wiki/ to the repository's GitHub wiki (axis.wiki.git).
+# Publishes .wiki/ to the current repository's GitHub wiki.
 # The .wiki/ directory is the single source of truth for wiki content:
 # edits made directly in the wiki web UI will be overwritten on the next sync.
 # The wiki must have at least one page created via the web UI once (already done),

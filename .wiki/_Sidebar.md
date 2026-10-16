@@ -1,22 +1,15 @@
-**Start**
-- [[Home]]
-- [[Getting Started]]
-- [[FAQ]]
-
-**Concepts**
-- [[Polaris Constitution]]
-- [[Core Principles]]
-- [[Governance and Delegation]]
-- [[Agents and Roles]]
-
-**Operate**
-- [[Playbooks]]
-- [[Recipes]]
-- [[Decision Engine and ADRs]]
-- [[Constraints]]
-- [[Project Boards]]
-
-**Reference**
-- [[Memory and Knowledge]]
-- [[Document Standards]]
-- [[Glossary]]
+- [[Home|Polaris and Constellation]]
+- [[Getting-Started|Getting started]]
+- [[Polaris-Constitution|Polaris Constitution]]
+- [[Core-Principles|Constitutional principles]]
+- [[Governance-and-Delegation|Governance and delegation]]
+- [[Agents-and-Roles|Agents and roles]]
+- [[Constraints|Constraints]]
+- [[Decision-Engine-and-ADRs|Policies and decisions]]
+- [[Document-Standards|Document standards]]
+- [[Memory-and-Knowledge|Memory and knowledge]]
+- [[Glossary|Glossary]]
+- [[Playbooks|Playbooks]]
+- [[Recipes|Recipes]]
+- [[Project-Boards|Project boards]]
+- [[FAQ|Common adoption questions]]

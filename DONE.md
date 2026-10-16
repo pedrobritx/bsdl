@@ -1,45 +1,18 @@
 ---
-title: Definition of Done
-owner: QA Engineer
+title: Polaris definition of done
+owner: Maintainer
 status: Active
-last_updated: 2026-10-15
+last_updated: 2026-10-16
 ---
 
-# DONE — Definition of Done
+# Completion evidence
 
-Nothing is complete until every **applicable** item passes. "Not applicable" must be stated explicitly in the PR, not assumed silently.
+Apply checks to the actual deliverable; state material limitations and reasons for inapplicable checks.
 
-## Checklist
-
-### Product
-- [ ] Meets acceptance criteria in the feature spec / user story
-- [ ] `docs/product/` updated if behavior or scope changed
-
-### Architecture
-- [ ] Consistent with `ARCHITECTURE.md`; deviations recorded as ADR
-- [ ] No new dependency without Decision Engine check + license check
-
-### Quality
-- [ ] Unit tests written and passing
-- [ ] Integration tests for cross-system behavior
-- [ ] Error, loading, and empty states implemented and tested
-- [ ] Manual smoke test performed
-
-### Non-functional
-- [ ] Accessibility verified against `constraints/accessibility.md`
-- [ ] Localization: no hardcoded user-facing strings
-- [ ] Performance within budgets (`constraints/performance.md`)
-- [ ] Security review for auth/input/secrets surface (`constraints/security.md`)
-
-### Instrumentation
-- [ ] Evidence of the intended outcome recorded. Analytics is optional and requires a justified purpose, minimal collection and explicit approval; follow `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/OBSERVABILITY.md` if adopted.
-- [ ] Errors reported to the error tracker with useful context
-
-### Documentation
-- [ ] Owning docs updated in the same PR
-- [ ] `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/oss/CHANGELOG.md` entry added
-- [ ] New reusable pattern? → written back to `recipes/` or `memory/patterns.md`
-
-### Continuity
-- [ ] `STATUS.md` updated
-- [ ] `HANDOFF.md` updated
+- The approved objective and acceptance criteria are met, with observable evidence.
+- The [composition contract](integration/README.md) places reusable and product-specific changes in their owners. Selected disciplines return artifacts and evidence; excluded required scopes remain visible until alternative coverage is verified.
+- Required guidance and consequential decisions are traceable to the reviewed revisions. Draft policies grant no authority. Canon changes retain their separate human/ADR gate.
+- Run relevant checks in each changed repository and verify the integrated result. Documentation checks alone do not prove product functionality, accessibility or security. Preserve independent review requirements where applicable.
+- Inspect diffs for accidental public-contract changes, secrets, copied policy, generated noise and unrelated edits. Product-facing behaviour receives appropriate functional, accessibility, privacy and security checks in its own repository.
+- Update owning documentation and the local CHANGELOG. Update STATUS/HANDOFF for changed state or unfinished work; preserve historical records.
+- Keep unresolved decisions, residual risk and deployment/publication/merge gates explicit. A plan, passing test or completed discipline task does not grant external authority.

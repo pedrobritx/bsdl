@@ -1,4 +1,19 @@
 ---
+title: Polaris handoff
+owner: Maintainer
+status: Active
+last_updated: 2026-10-16
+---
+
+# Current handoff
+
+The 2026-10-16 owner request establishes Polaris as the usual coordinator and keeps each discipline independently usable. Composition changes are prepared for coordinated review on refactor/constellation-composition. The shared contract and audit record live in Polaris; local discipline manifests describe reusable ownership and evidence outputs. Product-specific artifacts remain in their product repository.
+
+Run the documented local checks. Review the coordinated changes before merge; no release, deployment, provider configuration or automatic merge is included. Source revisions and local modifications are recorded by the planner; its output is a plan, not completed specialist work.
+
+## Previous record (historical)
+
+---
 title: Polaris extraction handoff
 owner: Maintainer
 status: Active
