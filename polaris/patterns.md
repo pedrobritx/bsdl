@@ -14,7 +14,7 @@ last_updated: 2026-07-22
 
 They capture proven knowledge acquired through experience and provide a common language for discussing software solutions without prescribing a single implementation.
 
-Within BSDL, patterns describe *why* a solution exists, *when* it should be used, *how* it works, and *what trade-offs it introduces*.
+Within Polaris, patterns describe *why* a solution exists, *when* it should be used, *how* it works, and *what trade-offs it introduces*.
 
 Patterns are descriptive rather than prescriptive. Their suitability always depends on context, constraints, and engineering goals.
 
@@ -223,7 +223,7 @@ Examples:
 
 # AI Patterns
 
-This is where BSDL can contribute something original.
+This is where Polaris can contribute something original.
 
 Examples:
 
@@ -302,7 +302,7 @@ Examples:
 
 One of the most interesting ideas inherited from Christopher Alexander.
 
-Instead of isolated patterns, BSDL should show **how patterns work together**.
+Instead of isolated patterns, Polaris should show **how patterns work together**.
 
 For example:
 
@@ -344,7 +344,7 @@ This is far more valuable than a flat catalog because it teaches engineers to co
 
 # Pattern Catalog
 
-A searchable index of every pattern documented in BSDL.
+A searchable index of every pattern documented in Polaris.
 
 Suggested database properties:
 
@@ -410,7 +410,7 @@ Machine-readable Metadata
 
 ---
 
-# BSDL Pattern Relationships
+# Polaris Pattern Relationships
 
 One original feature I'd introduce is that **patterns are explicitly connected** rather than documented in isolation.
 

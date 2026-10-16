@@ -8,7 +8,7 @@ last_updated: 2026-10-15
 # Separate constitutional amendment proposal: protective intervention
 
 ## Status and provenance
-The owner requested a separate proposed clarification on 2026-10-15. This file does not amend `bsdl/constitution/foundations.md` or ratify new constitutional wording. The operational candidate preserves the entire canon byte for byte.
+The owner requested a separate proposed clarification on 2026-10-15. This file does not amend `polaris/constitution/foundations.md` or ratify new constitutional wording. The operational candidate preserves the entire canon byte for byte.
 
 ## Problem
 The existing Ethics paragraph says software should protect users from themselves when they are likely to be wrong or harmed. Together with a ranked value list placing autonomy last, this may be interpreted as permission for opaque paternalistic restrictions. That interpretation conflicts with the same document's requirement for meaningful agency and with the owner's humanistic, intuitive and privacy-conscious product aims.

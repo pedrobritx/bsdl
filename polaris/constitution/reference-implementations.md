@@ -20,7 +20,7 @@ last_updated: 2026-07-22
 - ADR template
 - Runbook template
 
-## BSDL decision record template
+## Polaris decision record template
 
 ```markdown
 # Decision
@@ -44,7 +44,7 @@ last_updated: 2026-07-22
 ## Review date
 ```
 
-## BSDL lifecycle template
+## Polaris lifecycle template
 
 ```
 Discovery
@@ -58,7 +58,7 @@ Discovery
   -> Evolve
 ```
 
-## BSDL architecture rule template
+## Polaris architecture rule template
 
 ```
 If a decision is expensive to reverse, it must be:
@@ -68,7 +68,7 @@ If a decision is expensive to reverse, it must be:
 4. testable where possible
 ```
 
-## BSDL AI collaboration prompt template
+## Polaris AI collaboration prompt template
 
 ```
 Role: [apprentice | specialist | reviewer | architect surrogate]
@@ -78,7 +78,7 @@ Non-negotiables: [ethical / technical / organizational limits]
 Output format: [table | outline | markdown | code | decision matrix]
 ```
 
-## BSDL heuristic table
+## Polaris heuristic table
 
 | Question | Default direction | Why |
 | --- | --- | --- |
@@ -88,7 +88,7 @@ Output format: [table | outline | markdown | code | decision matrix]
 | Need flexibility in uncertain scope? | Keep reversible | Preserves future options |
 | Need ethical restraint? | Refuse the request | Some work should not exist |
 
-## BSDL project structure example
+## Polaris project structure example
 
 ```
 project/

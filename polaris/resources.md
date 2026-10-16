@@ -7,10 +7,10 @@ last_updated: 2026-07-22
 
 # 8. Resources
 
-> **Resources is the official repository of reusable engineering assets provided by the Britx Software Design Language (BSDL).**
+> **Resources is the official repository of reusable engineering assets provided by the Polaris.**
 > 
 
-It contains templates, checklists, diagrams, reference models, schemas, examples, prompts, and other artifacts that help engineers consistently apply BSDL principles, standards, and practices.
+It contains templates, checklists, diagrams, reference models, schemas, examples, prompts, and other artifacts that help engineers consistently apply Polaris principles, standards, and practices.
 
 Unlike the Knowledge Base, which explains concepts, Resources focuses on **practical reuse**.
 
@@ -20,7 +20,7 @@ Unlike the Knowledge Base, which explains concepts, Resources focuses on **pract
 
 The Resources section exists to accelerate software engineering by providing standardized, reusable artifacts that support every stage of the software lifecycle.
 
-These resources reduce repetitive work, improve consistency, and make BSDL immediately applicable to real-world projects.
+These resources reduce repetitive work, improve consistency, and make Polaris immediately applicable to real-world projects.
 
 ---
 
@@ -171,7 +171,7 @@ Each record should include:
 
 # 💡 Examples
 
-Complete reference implementations demonstrating BSDL concepts.
+Complete reference implementations demonstrating Polaris concepts.
 
 ### Categories
 
@@ -194,7 +194,7 @@ Examples should be educational rather than production-ready, highlighting the pr
 
 # 🤖 Prompt Library
 
-One of the defining features of BSDL.
+One of the defining features of Polaris.
 
 A curated collection of reusable prompts designed for AI-assisted software engineering.
 
@@ -259,7 +259,7 @@ Each prompt should include:
 
 # 📐 Schemas
 
-Machine-readable specifications used by BSDL.
+Machine-readable specifications used by Polaris.
 
 ### Topics
 
@@ -269,7 +269,7 @@ Machine-readable specifications used by BSDL.
 - OpenAPI Specification
 - AsyncAPI
 - Metadata Schema
-- BSDL Object Schema
+- Polaris Object Schema
 - Knowledge Graph Schema
 - Ontology Definitions
 - Prompt Schema
@@ -383,7 +383,7 @@ Deprecated
 Archived
 ```
 
-This reinforces that Resources are not miscellaneous attachments—they are governed assets that evolve alongside the rest of BSDL, ensuring engineers and AI systems always work from current, validated, and reusable materials.
+This reinforces that Resources are not miscellaneous attachments—they are governed assets that evolve alongside the rest of Polaris, ensuring engineers and AI systems always work from current, validated, and reusable materials.
 
 # 📦 Resources
 

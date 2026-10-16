@@ -12,7 +12,7 @@ last_updated: 2026-07-22
 > **Development is the engineering discipline responsible for implementing, validating, documenting, refining, and evolving software while preserving the architectural intent established during design.**
 > 
 
-In BSDL, development extends beyond writing code. It encompasses engineering practices, quality assurance, documentation, automation, collaboration, and AI-assisted workflows that ensure software remains understandable, maintainable, and adaptable throughout its lifetime.
+In Polaris, development extends beyond writing code. It encompasses engineering practices, quality assurance, documentation, automation, collaboration, and AI-assisted workflows that ensure software remains understandable, maintainable, and adaptable throughout its lifetime.
 
 Development is a continuous engineering activity in which implementation, verification, and improvement occur together rather than as isolated phases.
 
@@ -202,7 +202,7 @@ Topics:
 
 # Artificial Intelligence
 
-One of BSDL's defining disciplines.
+One of Polaris's defining disciplines.
 
 Topics:
 
@@ -335,7 +335,7 @@ Machine-readable Metadata
 
 # Development Workflow
 
-One concept I think BSDL should introduce is a **canonical engineering workflow**. Not as a rigid process, but as the ideal flow that links the Architecture and Development sections together:
+One concept I think Polaris should introduce is a **canonical engineering workflow**. Not as a rigid process, but as the ideal flow that links the Architecture and Development sections together:
 
 ```
 Requirements

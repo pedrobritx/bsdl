@@ -1,0 +1,426 @@
+{
+  "base_commit": "36c10295dfa6a7bcb99b85f95a977768287732cf",
+  "scope": "Canonical product naming; immutable original Git objects and extraction provenance remain historical evidence. Source paths use reversible UTF-8 hex. This ledger excludes itself.",
+  "records": [
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e6769746875622f776f726b666c6f77732f646f63732d76616c69646174652e796d6c",
+      "path": ".github/workflows/docs-validate.yml",
+      "before_sha256": "ae048067e8a048141e0bb051b11e7283e9d2434447b46abfbacac798e0e76300",
+      "after_sha256": "eb48f001f5957ba4868ecde4d25d3289c29a7d43b54f5dd226c2deb7fcfe7d03"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e6769746875622f776f726b666c6f77732f77696b692d73796e632e796d6c",
+      "path": ".github/workflows/wiki-sync.yml",
+      "before_sha256": "dd549ec4f8ea49394b3b87618c03d0d6fe9afa60c23123b858da16dc81e00d65",
+      "after_sha256": "b8ec0f6f43ee873dbdc63d7fbf4a2e6c74a53274dce770e90d94904c364d1912"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f4167656e74732d616e642d526f6c65732e6d64",
+      "path": ".wiki/Agents-and-Roles.md",
+      "before_sha256": "169755102aff060070011e110daad257961365a2c09757111961626b8c4be5f1",
+      "after_sha256": "ee255526af9a3cd3f4a0c65cb358d4ddd3029e08dffd59bf5594d1a4326ac428"
+    },
+    {
+      "action": "D",
+      "source_path_utf8_hex": "2e77696b692f4253444c2d436f6e737469747574696f6e2e6d64",
+      "path": null,
+      "before_sha256": "364946f7da536a5d5e5ec5dfaea16e90f7926497d96e0bd0c5b8264ba5e1d59b",
+      "after_sha256": null
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f436f6e73747261696e74732e6d64",
+      "path": ".wiki/Constraints.md",
+      "before_sha256": "32a8a99f6e871501c119a30b397408f18f3634e3721c63a01605d7a41bad5568",
+      "after_sha256": "a531d66a2129bdc4c1a9faf38a2a41ec55501c154c70254fb9f90a90e577320b"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f436f72652d5072696e6369706c65732e6d64",
+      "path": ".wiki/Core-Principles.md",
+      "before_sha256": "b6a83e08a7966d27fc6cb3dbbde4f2973c0bdb34999d707e86ec8509296bd315",
+      "after_sha256": "d57457fa674b260646d740849246912046bd06c20ab69314375be183a5f154c6"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f4465636973696f6e2d456e67696e652d616e642d414452732e6d64",
+      "path": ".wiki/Decision-Engine-and-ADRs.md",
+      "before_sha256": "3fcdaf1bd2ee6296a9bd97ee7d7b80ef6520f230cdfd5fb62699412d6ca873a9",
+      "after_sha256": "9705bc6a68a475eaf690b2d169c2cf2c8d0b173c6df58c0537dd663454c6deca"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f446f63756d656e742d5374616e64617264732e6d64",
+      "path": ".wiki/Document-Standards.md",
+      "before_sha256": "ceea8e2c6b49cabc969c70e2514f43a68ace2880d5810f006bc09264a9bff740",
+      "after_sha256": "70bc4ae2cf71ff51551b0989914dc30cc5dc072e6bd8c9fca09a5b76a7046028"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f4641512e6d64",
+      "path": ".wiki/FAQ.md",
+      "before_sha256": "26d58c66b9dab5a77d531f42181b59429e76e6a9abd2b6e3d119f01959c6628b",
+      "after_sha256": "c4e1d5b8be2fa435376a6d8d08a00ebf51a7e1bec5783bebf34f4349d4638227"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f47657474696e672d537461727465642e6d64",
+      "path": ".wiki/Getting-Started.md",
+      "before_sha256": "a3cda9ab9a37c21d7e524da4d5f984f937f46b4c6d5179b69573ce57206dfa60",
+      "after_sha256": "6b501ab13956198bdc5e259226f6555119dba378c75b4099d9f98c3b18a3afbd"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f476c6f73736172792e6d64",
+      "path": ".wiki/Glossary.md",
+      "before_sha256": "6775d57a9545a9b9676ae6fb583a7072a311f84bb926438f87db68285b742fdb",
+      "after_sha256": "77d9f31e0f20e4ad5de80c28f38bd2703e15a5b44b72ee7fa416cbd15855b583"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f476f7665726e616e63652d616e642d44656c65676174696f6e2e6d64",
+      "path": ".wiki/Governance-and-Delegation.md",
+      "before_sha256": "e10d0c45f8c53ce2ee18a9b675279c67c8bd79c0ca3ca85df26a991c3bafce17",
+      "after_sha256": "090c58655b4526b5a446aeabdb79e3791d65902ef26a8f605a3497127b330631"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f486f6d652e6d64",
+      "path": ".wiki/Home.md",
+      "before_sha256": "cc39a91fc3b025ee0c8727a592051b279b49c59bb38dc7961c94d28255c7f52b",
+      "after_sha256": "124c34573a23e5abb67943844d158f914d9c7564872b031ed6d3cc04b357a26b"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f4d656d6f72792d616e642d4b6e6f776c656467652e6d64",
+      "path": ".wiki/Memory-and-Knowledge.md",
+      "before_sha256": "f91accd9ef4412df223931d7dd93471fa9d4582d05d3412af0e72dccbaf25d5c",
+      "after_sha256": "cbc0b539eb19dac41334a47a181e7e96323cb6d7f6c512cab7e361ac69a81d2d"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f506c6179626f6f6b732e6d64",
+      "path": ".wiki/Playbooks.md",
+      "before_sha256": "c47f0ebaa04559e52a1d00ce9383c5137ad20e7af3518d050acb67571cbf44f2",
+      "after_sha256": "ab947f4e29bb3a52ab89907662971692286e49b32316a4342017ae5335c0802a"
+    },
+    {
+      "action": "A",
+      "source_path_utf8_hex": null,
+      "path": ".wiki/Polaris-Constitution.md",
+      "before_sha256": null,
+      "after_sha256": "2f9ca065b7ddf63d8cd27a61c835f60d75b4dc4eca7608f9c283255158f5b1b8"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f50726f6a6563742d426f617264732e6d64",
+      "path": ".wiki/Project-Boards.md",
+      "before_sha256": "597af6768cec81b8b4ff836016f2c27dd88f2eb76349d6a6b8e10ad82f97ab85",
+      "after_sha256": "514c936b89bf0faf3b3c06cb03c0f8e96dd45a84cceaf2eff25422d33e2675b1"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f526563697065732e6d64",
+      "path": ".wiki/Recipes.md",
+      "before_sha256": "0ab245d562be06000b62a18482fd24054b47cb1e0f6b68dd7c3f474ecf9fab68",
+      "after_sha256": "1e16d5d00466e2ef65252cb000a1d17e88b9e2564d6ccd484f47b9a24a5692f1"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f5f466f6f7465722e6d64",
+      "path": ".wiki/_Footer.md",
+      "before_sha256": "55dd8ca89c92c17e191fe209f59ea6ed695cb86c6adbdbcb6e0e9b1dd83bdcb6",
+      "after_sha256": "8a759ce6da42a0c9e69668bd98e98dd0516e8f28beb2e480ee63c85385534ef0"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "2e77696b692f5f536964656261722e6d64",
+      "path": ".wiki/_Sidebar.md",
+      "before_sha256": "2dc2ce2ba418c295d00bc097bdd8819e091d7bc9ffc5d0e7e5c5d7a3279e03b1",
+      "after_sha256": "b5fad289404f4454ba1ccf29aa479a91fda0a17c7ccc2b28138ff7ed00f9b777"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "4147454e54532e6d64",
+      "path": "AGENTS.md",
+      "before_sha256": "c34e66c40fa8c379a68f57cfa7bcc23d7e39a701efcd526200d03c81bdc18029",
+      "after_sha256": "d4159e42e55e34121ec1dc0bb3b51fe77bffcafd64c4997e4e9be6dbe7a75d8d"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "4348414e47454c4f472e6d64",
+      "path": "CHANGELOG.md",
+      "before_sha256": "ebf8460224039ad6d5b494ffbbd0093cba03d474208715f58877e97013fe7911",
+      "after_sha256": "3c9809a3e462a8feb93eca575485b114484e0356e5ac7bd5de8f9f0aca85de83"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "434c415544452e6d64",
+      "path": "CLAUDE.md",
+      "before_sha256": "b2e7f52fe2f9233066fcc82dcdaa0fdcdc15b7614bb0bf48ef450e8fd67da51a",
+      "after_sha256": "e26cb1c32075c3e98f0876034559ba8769faeacb2728a58463792d984b675cdf"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "48414e444f46462e6d64",
+      "path": "HANDOFF.md",
+      "before_sha256": "9935c74ec02447a23170f2c58c18657464dfcfee17110b156256d87621326a65",
+      "after_sha256": "f76a3da889cd2951ed50af6388697705474fd46fbc59d6e9235f7ea0fde90ae6"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "50524f4a4543545f52554c45532e6d64",
+      "path": "PROJECT_RULES.md",
+      "before_sha256": "0b274ba12c8cde5a1032e583d25cf5e760548f94fc00e60145ef3853058ed090",
+      "after_sha256": "46c8ba1521817f14f45c8fbf03a359ed8d14c2923f5ce9f5e782e8914b1e4537"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "524541444d452e6d64",
+      "path": "README.md",
+      "before_sha256": "ec90f292f151b4b88d757d338fd89256825f199e6feb501cdb33121ed7110ee3",
+      "after_sha256": "39a6c9e9ca8b7fc95867185e842bca0d07fc7d2e46b28d15afaa8f39e3caa208"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "53544152545f484552452e6d64",
+      "path": "START_HERE.md",
+      "before_sha256": "ce456e0d5814e19057e80db039642d169d9db076968381a782fd4929ec86f3eb",
+      "after_sha256": "8e7d22fc0438df87df7f4d7204b2bb8eb841dd56667e05776ec449933c16a107"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "5354415455532e6d64",
+      "path": "STATUS.md",
+      "before_sha256": "5cd3dcfc4a1513218c78e6fc3f53e20bc4cf0227e9f2449ca9002a0c126a9646",
+      "after_sha256": "571a5d43fe63b3aa0591d6ce168557a2a3a28892296035c473f3c7334f6bba18"
+    },
+    {
+      "action": "A",
+      "source_path_utf8_hex": null,
+      "path": "automation/check_product_names.py",
+      "before_sha256": null,
+      "after_sha256": "419ee7023ba4dfd701cc64884b2959041d9cdefccb119582d53bb7b64ce6981b"
+    },
+    {
+      "action": "R075",
+      "source_path_utf8_hex": "6465636973696f6e732f6164722f3030302d61646f70742d6273662e6d64",
+      "path": "decisions/adr/000-adopt-axis.md",
+      "before_sha256": "15b23b4941d9aa3a7657df449619ba15360afdc5cc81003e3093edbbc240922b",
+      "after_sha256": "90b7bb8fec3f01e066febadb446354fa68917165390ef304fef72a7a9c3e1101"
+    },
+    {
+      "action": "D",
+      "source_path_utf8_hex": "6465636973696f6e732f6164722f3030312d6273646c2d63616e6f6e2d74687265652d73757266616365732e6d64",
+      "path": null,
+      "before_sha256": "2600e298a4fb9d4ad70a752eee7f650a79e3bc2a7a4ec207ceb3400fc4e59265",
+      "after_sha256": null
+    },
+    {
+      "action": "A",
+      "source_path_utf8_hex": null,
+      "path": "decisions/adr/001-polaris-canon-three-surfaces.md",
+      "before_sha256": null,
+      "after_sha256": "478275c53ec5e4f9f01cff8265b279532d8f5d9d6fac23c5c726ac57aa0392a1"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "6465636973696f6e732f6164722f3030322d706f6c617269732d617869732d6d6572696469616e2d73656e74696e656c2e6d64",
+      "path": "decisions/adr/002-polaris-axis-meridian-sentinel.md",
+      "before_sha256": "c382ebb1cacd914dc05dd0c7b4f363e76e4605e777e9a42248ab7123d285ff1b",
+      "after_sha256": "ba600728dac84d910906ae0f06e6b0d39a29bb30c25a9a45127702304589036e"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "6465636973696f6e732f6164722f3030332d7072652d6d6967726174696f6e2d6f7065726174696e672d72756c65732e6d64",
+      "path": "decisions/adr/003-pre-migration-operating-rules.md",
+      "before_sha256": "5f294a2bbfbccf83b5640748dd408a77c8ccff2603dc6e28b6ef65cdc356c504",
+      "after_sha256": "63963d1988d6d710fb9d4d3bc72ba59cda714f5af4a35f2c6646fcfa410e479c"
+    },
+    {
+      "action": "A",
+      "source_path_utf8_hex": null,
+      "path": "decisions/adr/005-canonical-product-identities.md",
+      "before_sha256": null,
+      "after_sha256": "38416b8dcca79227026d127faa612b3cf4ba903d0c9b7b1ac74ddf928042c8b2"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "646f63732f524541444d452e6d64",
+      "path": "docs/README.md",
+      "before_sha256": "ff3cc8023ba1acc05f47f9aa551cc7d5d706951d2beabacd876a76087064a955",
+      "after_sha256": "79acdbdb35653c9f5b88966d913196604c7122be0961d38a18a656f540a844b2"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "646f63732f70726f706f73616c732f323032362d31302d31342d706f6c617269732d7472616e736974696f6e2e6d64",
+      "path": "docs/proposals/2026-10-14-polaris-transition.md",
+      "before_sha256": "9f9a77961b421d26be57cc758f848cdeaae99feea953e4921d00b0cd11a0b8ca",
+      "after_sha256": "2d2f0c8b267c0bfafbfd2e5c1541b1ffe5fa4d0bb2206fe946eac07be3557092"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "646f63732f70726f706f73616c732f323032362d31302d31352d70726f746563746976652d696e74657276656e74696f6e2d616d656e646d656e742e6d64",
+      "path": "docs/proposals/2026-10-15-protective-intervention-amendment.md",
+      "before_sha256": "4dbc05183cf24ed739b0037b9d277dbdbf7d3868fe37ac1c85f342a6a6438c37",
+      "after_sha256": "2bd2746938edb0ac302bb8688b044ad08b682844dd7705b950d0b5b783113456"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "646f63732f70726f706f73616c732f323032362d31302d31352d7265666163746f722d68616e646f66662e6d64",
+      "path": "docs/proposals/2026-10-15-refactor-handoff.md",
+      "before_sha256": "4b68e8044f1653de913ad3e96694dd7b2ebf11b9bdce6a4fc75e8f5c2d833242",
+      "after_sha256": "73f03d020f3a0715a22d365d2e8aec6fc0572632b8091be9119618129825d85e"
+    },
+    {
+      "action": "M",
+      "source_path_utf8_hex": "6c6c6d732e747874",
+      "path": "llms.txt",
+      "before_sha256": "44774ef58a0062a0cfcac1ea5869e63955a16f47b0baca6ecd99d6a6d36d4eec",
+      "after_sha256": "0ae2973dbb74ac2a4be1ac7ec452bb93982cf69892a189df616e05f69ccdea3d"
+    },
+    {
+      "action": "R068",
+      "source_path_utf8_hex": "6273646c2f524541444d452e6d64",
+      "path": "polaris/README.md",
+      "before_sha256": "b99e435a26b063d05548bd58ab03efafea9e62b2d8adc779326d713e302c801d",
+      "after_sha256": "7883a984e34c92776f8fcd7948e769b5c42f35dd01d120a7550eda00f08a8646"
+    },
+    {
+      "action": "R082",
+      "source_path_utf8_hex": "6273646c2f61626f75742e6d64",
+      "path": "polaris/about.md",
+      "before_sha256": "64aa578a2d4932d2d2714758729e93bb9664948d5a9040e89302f0be51f90141",
+      "after_sha256": "57743cfbfabd0034f8afd1d215b855a31e5d2e6051f98f63197c9085c00d1162"
+    },
+    {
+      "action": "R095",
+      "source_path_utf8_hex": "6273646c2f6172636869746563747572652d64657369676e2d6d6f64656c696e672e6d64",
+      "path": "polaris/architecture-design-modeling.md",
+      "before_sha256": "39935bc2ce6c749edd3e3184f60fe26996fbd46271a84af219f44d72cdc54ad8",
+      "after_sha256": "ec1481d2aed6dda6c9ea46094d90af08122a4585e08674e3074ba61d4d0b34ce"
+    },
+    {
+      "action": "R083",
+      "source_path_utf8_hex": "6273646c2f6172746966696369616c2d696e74656c6c6967656e63652e6d64",
+      "path": "polaris/artificial-intelligence.md",
+      "before_sha256": "e720678cbedeb50d59bd12692b57cd00a1870d462ca3cad13f4f464e20cc9bf2",
+      "after_sha256": "a214e518ab4ad41ff6787ef17ea68225ea808f134969889054d47efcca87beeb"
+    },
+    {
+      "action": "R082",
+      "source_path_utf8_hex": "6273646c2f636f6d6d756e6974792e6d64",
+      "path": "polaris/community.md",
+      "before_sha256": "2ded4954e1b60e5da5be9695cbe8d62b338f19636cf8ce5478b85a17a9314e3b",
+      "after_sha256": "7d259f473ac1c6d2e64cc7822b9efa8653912f2a14aea21abdb9cbcfcb128c69"
+    },
+    {
+      "action": "R056",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f524541444d452e6d64",
+      "path": "polaris/constitution/README.md",
+      "before_sha256": "8e71e7a449a4f648cfffc9a966faf7e6e2994515a05732c5f05735b1675dd57a",
+      "after_sha256": "eccfda295349a720473efd8f13a66b9102c75088f9d371cfe49754add86634eb"
+    },
+    {
+      "action": "R096",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f646572697665642d6672616d65776f726b732e6d64",
+      "path": "polaris/constitution/derived-frameworks.md",
+      "before_sha256": "0ed6791c71132fa36b3d50a1d970f612727836207578b9f3a742834f3fa55529",
+      "after_sha256": "401f29ee39e5c1f664cd744deba08bf6cbb10652334a8891dd633dd3121cd241"
+    },
+    {
+      "action": "R100",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f656e67696e656572696e672d6c6177732e6d64",
+      "path": "polaris/constitution/engineering-laws.md",
+      "before_sha256": "13b364777b0dd4648787f052c882af109e0aacfeaca4e3607a4090d65967d3e2",
+      "after_sha256": "13b364777b0dd4648787f052c882af109e0aacfeaca4e3607a4090d65967d3e2"
+    },
+    {
+      "action": "R100",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f666f756e646174696f6e732e6d64",
+      "path": "polaris/constitution/foundations.md",
+      "before_sha256": "40358c15d95e09b2b8d8d2b382d24b2ed1b160a7357a7657f13f728b0037cb7f",
+      "after_sha256": "40358c15d95e09b2b8d8d2b382d24b2ed1b160a7357a7657f13f728b0037cb7f"
+    },
+    {
+      "action": "R051",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f707265616d626c652e6d64",
+      "path": "polaris/constitution/preamble.md",
+      "before_sha256": "e0ef68fd6812e2e258d37f66c465b0cf07db797f0d121371ceb600e5db830e78",
+      "after_sha256": "8c0151b986aeb276be4df754e051a44da790befaaedef19fa81c249b7f22254b"
+    },
+    {
+      "action": "R100",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f7072696e6369706c65732e6d64",
+      "path": "polaris/constitution/principles.md",
+      "before_sha256": "68f1b2252884f82779a358f2bd987a0927fead7cec2c8d81766e00ee1061b27b",
+      "after_sha256": "68f1b2252884f82779a358f2bd987a0927fead7cec2c8d81766e00ee1061b27b"
+    },
+    {
+      "action": "R092",
+      "source_path_utf8_hex": "6273646c2f636f6e737469747574696f6e2f7265666572656e63652d696d706c656d656e746174696f6e732e6d64",
+      "path": "polaris/constitution/reference-implementations.md",
+      "before_sha256": "fc3195451b684a7229279b9528dc3cb9265cbd5d75aa6bd8abe0a4b64257849f",
+      "after_sha256": "6b76cbb6b7c758b4f28ad1fc1f14a703f6e98f389b39983f526c4fef744c515c"
+    },
+    {
+      "action": "R091",
+      "source_path_utf8_hex": "6273646c2f646576656c6f706d656e742e6d64",
+      "path": "polaris/development.md",
+      "before_sha256": "4d91b6a397325ae220b7adaee95ec5dc9804c5c2995f5db5e098deacd4f9c225",
+      "after_sha256": "800b5092276a73c6b4bf74494be92933c0b538f16a09c425f1dcd067e8bd6a9c"
+    },
+    {
+      "action": "R089",
+      "source_path_utf8_hex": "6273646c2f676c6f73736172792e6d64",
+      "path": "polaris/glossary.md",
+      "before_sha256": "096291fc06e19fee5484d529fe541c05b4742a3e9b5dd3516671ad11418a9db2",
+      "after_sha256": "64609e1b611febd472cd02e5a5fa32b8bfb1f5d5938df3fdc8a3819096f92b10"
+    },
+    {
+      "action": "R087",
+      "source_path_utf8_hex": "6273646c2f6b6e6f776c656467652d626173652e6d64",
+      "path": "polaris/knowledge-base.md",
+      "before_sha256": "a1fae158ee02147ce743db9ac41656da9af54a3766403065f55e80358f0740f4",
+      "after_sha256": "d493e75535358658dea4c2c2570d11ac952f2435c90279093bc8b3fe578aeedc"
+    },
+    {
+      "action": "R097",
+      "source_path_utf8_hex": "6273646c2f6f7065726174696f6e732e6d64",
+      "path": "polaris/operations.md",
+      "before_sha256": "1e0b99429539115af7264c39a87cafabbc791a0a00a8b1ff27085cc278923207",
+      "after_sha256": "53f8deb7bb8efc84a538c4b89c5b090b544497af3cfb1b499b8531214f7e9ecd"
+    },
+    {
+      "action": "R094",
+      "source_path_utf8_hex": "6273646c2f7061747465726e732e6d64",
+      "path": "polaris/patterns.md",
+      "before_sha256": "5564b360eb6a9a1a9c702528457570924a793a4a82abeef9cd7f03829d474085",
+      "after_sha256": "ad0c4653149cde39a4455594e40c21057cbae7eda61e543f7e0fd75c358446d9"
+    },
+    {
+      "action": "R092",
+      "source_path_utf8_hex": "6273646c2f7265736f75726365732e6d64",
+      "path": "polaris/resources.md",
+      "before_sha256": "8d2a90d7c46fb640a08c790af1b393790066a021ed20b7f93283e2d0d98cbdfc",
+      "after_sha256": "91a4c5305d1853bb239212cd63fbaf0ab3bc9ee525ecfcbead0908bb798f2ed6"
+    },
+    {
+      "action": "R087",
+      "source_path_utf8_hex": "6273646c2f7374616e64617264732e6d64",
+      "path": "polaris/standards.md",
+      "before_sha256": "6b4aab230809c03a189867cade175f56f5c26122771162107302fb8e01e18d23",
+      "after_sha256": "6daf95e9d8f095f31efabe59dccbf040f9bf2e3e14af76f727f70bbfa5c6c9d1"
+    },
+    {
+      "action": "A",
+      "source_path_utf8_hex": null,
+      "path": "tests/test_product_names.py",
+      "before_sha256": null,
+      "after_sha256": "b043316b6f391821814ed2e175188e7d3cd11801367bea120c382977eaa7a2f4"
+    }
+  ]
+}

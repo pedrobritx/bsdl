@@ -9,7 +9,7 @@ last_updated: 2026-07-22
 
 ## 1. Lifecycle selection
 
-BSDL does not enforce a single lifecycle. It selects a lifecycle from context.
+Polaris does not enforce a single lifecycle. It selects a lifecycle from context.
 
 ### Primary drivers
 
@@ -149,7 +149,7 @@ If a team changes database strategy, the ADR should explain:
 
 ## 6. Failure model
 
-BSDL treats failure as informative rather than shameful.
+Polaris treats failure as informative rather than shameful.
 
 ### Good failure
 

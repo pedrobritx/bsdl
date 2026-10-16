@@ -7,12 +7,12 @@ last_updated: 2026-07-22
 
 # 2. Knowledge Base
 
-> **The Knowledge Base is the central repository of concepts, terminology, definitions, theories, and relationships that form the intellectual foundation of the Britx Software Design Language (BSDL).**
+> **The Knowledge Base is the central repository of concepts, terminology, definitions, theories, and relationships that form the intellectual foundation of the Polaris.**
 > 
 
-Unlike the Constitution, which establishes the identity and governance of BSDL, the Knowledge Base explains the ideas, vocabulary, and engineering knowledge that practitioners use to reason about software.
+Unlike the Constitution, which establishes the identity and governance of Polaris, the Knowledge Base explains the ideas, vocabulary, and engineering knowledge that practitioners use to reason about software.
 
-Every concept in BSDL should be represented as a structured knowledge entry that is understandable by humans and interpretable by intelligent systems.
+Every concept in Polaris should be represented as a structured knowledge entry that is understandable by humans and interpretable by intelligent systems.
 
 ---
 
@@ -29,7 +29,7 @@ Rather than prescribing specific technologies or methodologies, it documents end
 # Objectives
 
 - Establish a common engineering vocabulary.
-- Define the fundamental concepts used throughout BSDL.
+- Define the fundamental concepts used throughout Polaris.
 - Reduce ambiguity through precise terminology.
 - Document software engineering theory in a structured way.
 - Connect related concepts into an integrated knowledge graph.
@@ -51,7 +51,7 @@ Entries should be based on established engineering knowledge, clearly distinguis
 
 Every concept has one canonical definition.
 
-Alternative interpretations may be documented, but the BSDL definition remains authoritative.
+Alternative interpretations may be documented, but the Polaris definition remains authoritative.
 
 ---
 
@@ -127,7 +127,7 @@ Examples:
 
 ## 📝 Terminology
 
-Defines the official BSDL vocabulary.
+Defines the official Polaris vocabulary.
 
 For each term:
 
@@ -244,7 +244,7 @@ Examples:
 
 ## 📖 Glossary
 
-The authoritative dictionary of BSDL.
+The authoritative dictionary of Polaris.
 
 Every defined term appears here, with links back to its canonical page.
 
@@ -252,7 +252,7 @@ Every defined term appears here, with links back to its canonical page.
 
 ## 📚 References
 
-External sources that inform BSDL.
+External sources that inform Polaris.
 
 Examples:
 
@@ -297,7 +297,7 @@ References
 Machine-readable Metadata
 ```
 
-This consistency is what will make BSDL powerful as both a human reference and an AI knowledge base.
+This consistency is what will make Polaris powerful as both a human reference and an AI knowledge base.
 
 ## One structural improvement
 

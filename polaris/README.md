@@ -1,15 +1,15 @@
 ---
-title: BSDL Canon
+title: Polaris Canon
 owner: CEO
 status: Active
 last_updated: 2026-07-22
 ---
 
-# BSDL — Britx Software Design Language
+# Polaris
 
-> The canonical text of BSDL. Everything in this directory is the single source of truth for the design language; the wiki and the website are derived views and must never contradict it.
+> The canonical text of Polaris. Everything in this directory is the single source of truth for the design language; the wiki and the website are derived views and must never contradict it.
 
-BSDL is a **design–development–software-lifecycle language**: a constitution plus a body of standards, patterns, and practices that tell any collaborator — human or AI — how Pedro (britx) builds software. It exists so that AI copilots can build software that carries his essence without re-deriving it every session.
+Polaris is a **design–development–software-lifecycle language**: a constitution plus a body of standards, patterns, and practices that tell any collaborator — human or AI — how Pedro (britx) builds software. It exists so that AI copilots can build software that carries his essence without re-deriving it every session.
 
 ## Reading order
 
@@ -30,11 +30,11 @@ BSDL is a **design–development–software-lifecycle language**: a constitution
 
 ## How AI should use this directory
 
-1. Onboard through the repository's `START_HERE.md` first (BSF operating rules).
+1. Onboard through the repository's `START_HERE.md` first (Axis operating rules).
 2. Read `constitution/` in full before making or proposing any significant decision.
-3. Cite the specific principle or law that justifies a recommendation ("per the Law of Reversibility…"). If no principle applies, say so — per the working rule, the practice may not belong in BSDL.
+3. Cite the specific principle or law that justifies a recommendation ("per the Law of Reversibility…"). If no principle applies, say so — per the working rule, the practice may not belong in Polaris.
 4. Never edit files here on your own initiative: the canon changes only through a human-approved ADR (Level 0).
 
 ## Provenance
 
-Imported 2026-07-22 from the Notion workspace "Britx Software Design Language" (authored by Pedro with AI assistance). Notion remains a drafting space; **this directory is the ratified text**. See ADR-001.
+Imported 2026-07-22 from the Notion workspace "Polaris" (authored by Pedro with AI assistance). Notion remains a drafting space; **this directory is the ratified text**. See ADR-001.

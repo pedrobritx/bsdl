@@ -4,7 +4,7 @@
 - [[FAQ]]
 
 **Concepts**
-- [[BSDL Constitution]]
+- [[Polaris Constitution]]
 - [[Core Principles]]
 - [[Governance and Delegation]]
 - [[Agents and Roles]]

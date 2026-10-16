@@ -16,7 +16,7 @@ This section establishes the engineering disciplines responsible for transformin
 
 It provides the concepts, methods, artifacts, and decision-making processes required to design systems that are understandable, maintainable, scalable, and adaptable over time.
 
-Within BSDL, architecture and design are continuous engineering activities rather than isolated project phases.
+Within Polaris, architecture and design are continuous engineering activities rather than isolated project phases.
 
 ---
 
@@ -186,7 +186,7 @@ Topics:
 
 # Modeling
 
-One of the most important parts of BSDL.
+One of the most important parts of Polaris.
 
 Topics:
 
@@ -203,7 +203,7 @@ Topics:
 - Flowcharts
 - Knowledge Graphs
 
-This is where BSDL develops its own modeling conventions alongside established ones.
+This is where Polaris develops its own modeling conventions alongside established ones.
 
 ---
 
@@ -242,7 +242,7 @@ Topics:
 
 # Decision Making
 
-One of BSDL's defining areas.
+One of Polaris's defining areas.
 
 Topics:
 

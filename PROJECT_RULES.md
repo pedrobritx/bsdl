@@ -7,7 +7,7 @@ last_updated: 2026-10-15
 
 # PROJECT RULES — Operating rules derived from the Polaris Constitution
 
-The Polaris Constitution is canonical in `bsdl/constitution/`. These operating rules implement it; they are not a second constitution. Permanent changes to this file or adopted hard constraints require explicit owner approval and a recorded decision. A task instruction authorises work within its scope; it does not silently amend constitutional commitments.
+The Polaris Constitution is canonical in `polaris/constitution/`. These operating rules implement it; they are not a second constitution. Permanent changes to this file or adopted hard constraints require explicit owner approval and a recorded decision. A task instruction authorises work within its scope; it does not silently amend constitutional commitments.
 
 ---
 

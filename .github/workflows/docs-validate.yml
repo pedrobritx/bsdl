@@ -11,4 +11,5 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python3 automation/validate_docs.py
+      - run: python3 automation/check_product_names.py
       - run: python3 -m unittest discover -s tests -v

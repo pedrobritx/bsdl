@@ -1,4 +1,4 @@
-> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
 
 *The two-part decision system: reusable policies and permanent records.* — [[Home]]
 
@@ -32,7 +32,7 @@ This is the pattern for all eleven shipped policies: analytics, authentication, 
 **→ In the repository**
 - [decisions/README.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/decisions/README.md) — the two systems and lifecycle
 - [decisions/decision-engine/authentication.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/decisions/decision-engine/authentication.md) — the worked example
-- [decisions/adr/000-adopt-bsf.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/decisions/adr/000-adopt-bsf.md) — the first ADR: adopting BSF itself
+- [decisions/adr/000-adopt-axis.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/decisions/adr/000-adopt-axis.md) — the first ADR: adopting Axis itself
 - [templates/adr.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/templates/adr.md) — the ADR template
 
 See also: [[Governance and Delegation]] · [[Memory and Knowledge]]

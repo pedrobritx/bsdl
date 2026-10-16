@@ -7,18 +7,18 @@ last_updated: 2026-07-22
 
 # 10. Community
 
-> **The Community section defines how the Britx Software Design Language (BSDL) evolves through collaboration, governance, transparency, and continuous improvement.**
+> **The Community section defines how the Polaris evolves through collaboration, governance, transparency, and continuous improvement.**
 > 
 
-BSDL is a living engineering framework. Its quality depends not only on its content, but also on the processes that guide its evolution.
+Polaris is a living engineering framework. Its quality depends not only on its content, but also on the processes that guide its evolution.
 
-The Community section establishes how proposals are submitted, standards are revised, releases are published, and contributors participate in shaping the future of BSDL.
+The Community section establishes how proposals are submitted, standards are revised, releases are published, and contributors participate in shaping the future of Polaris.
 
 ---
 
 # Purpose
 
-The Community section exists to ensure that BSDL evolves through an open, structured, and transparent process while maintaining consistency, quality, and long-term stability.
+The Community section exists to ensure that Polaris evolves through an open, structured, and transparent process while maintaining consistency, quality, and long-term stability.
 
 It defines how individuals and organizations collaborate to improve the framework over time.
 
@@ -39,7 +39,7 @@ It defines how individuals and organizations collaborate to improve the framewor
 
 # Principles
 
-- BSDL evolves continuously.
+- Polaris evolves continuously.
 - Decisions should be transparent.
 - Every proposal should have documented rationale.
 - Community feedback improves engineering quality.
@@ -67,7 +67,7 @@ It defines how individuals and organizations collaborate to improve the framewor
 
 # 🗺️ Roadmap
 
-The long-term vision and development plan for BSDL.
+The long-term vision and development plan for Polaris.
 
 The roadmap communicates upcoming priorities without serving as a fixed promise.
 
@@ -93,7 +93,7 @@ Suggested roadmap horizons:
 
 # 📑 RFCs (Requests for Comments)
 
-RFCs are the formal mechanism for proposing changes to BSDL.
+RFCs are the formal mechanism for proposing changes to Polaris.
 
 Every significant addition, modification, or removal should begin as an RFC.
 
@@ -142,7 +142,7 @@ Released
 
 # 📝 Changelog
 
-A complete history of changes to BSDL.
+A complete history of changes to Polaris.
 
 The changelog should explain **what changed and why**, not just list edits.
 
@@ -168,7 +168,7 @@ Every entry should reference:
 
 # 🤝 Contributing
 
-Guidelines for participating in BSDL.
+Guidelines for participating in Polaris.
 
 Topics:
 
@@ -205,7 +205,7 @@ Release
 
 # 🏛️ Governance
 
-Defines how BSDL is maintained and how decisions are made.
+Defines how Polaris is maintained and how decisions are made.
 
 ### Topics
 
@@ -232,7 +232,7 @@ Suggested governance roles:
 | **Maintainer** | Approves changes and manages releases. |
 | **Steering Committee** *(optional)* | Guides long-term strategic direction. |
 
-For the initial stages of BSDL, you may simply have:
+For the initial stages of Polaris, you may simply have:
 
 - Founder
 - Contributors
@@ -244,7 +244,7 @@ and introduce more formal governance as the community grows.
 
 # 🚀 Releases
 
-Documents official BSDL publications.
+Documents official Polaris publications.
 
 Every release should include:
 
@@ -339,9 +339,9 @@ Maintenance
 
 ---
 
-# BSDL Decision Model
+# Polaris Decision Model
 
-One feature I'd add to distinguish BSDL is a **decision taxonomy** that classifies changes by their scope and required review level.
+One feature I'd add to distinguish Polaris is a **decision taxonomy** that classifies changes by their scope and required review level.
 
 | Level | Type | Examples | Review Required |
 | --- | --- | --- | --- |

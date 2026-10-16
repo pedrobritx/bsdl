@@ -8,10 +8,10 @@ last_updated: 2026-10-15
 # ADR-003: Proposed operating-rule reconciliation before extraction
 
 ## Context and owner decisions
-The Constitution's Laws of Context, Evidence, Consistency and Reversibility conflict with universal stack prescriptions, placeholder policies marked Active and overstated validator guarantees. The owner explicitly selected on 2026-10-15: universal principles with explicit stack profiles; autonomy for reversible work within approved scope; and Polaris Constitution as current identity with historical BSDL paths/records preserved.
+The Constitution's Laws of Context, Evidence, Consistency and Reversibility conflict with universal stack prescriptions, placeholder policies marked Active and overstated validator guarantees. The owner explicitly selected on 2026-10-15: universal principles with explicit stack profiles; autonomy for reversible work within approved scope; and Polaris Constitution as current identity with historical Polaris paths/records preserved.
 
 ## Proposed decision
-Reconcile operational instructions with those directions in this local candidate. Preserve the full `bsdl/` canon, historical ADRs, workflows and original files in the source checkout. Mark ten empty decision policies Draft; clarify auth L0 boundaries; distinguish security requirements from actual auth settings; resolve role references; remove compulsory telemetry; strengthen only the validator's declared front-matter contract.
+Reconcile operational instructions with those directions in this local candidate. Preserve the full `polaris/` canon, historical ADRs, workflows and original files in the source checkout. Mark ten empty decision policies Draft; clarify auth L0 boundaries; distinguish security requirements from actual auth settings; resolve role references; remove compulsory telemetry; strengthen only the validator's declared front-matter contract.
 
 ## Authority and limits
 This ADR remains Proposed and is not ratified by local preparation or tests. The owner has supplied design directions, not a GitHub publication or merge instruction. No migration, repository rename, release, external configuration, licence selection or security-posture change is authorised here. Constitutional philosophical wording is handled by a separate proposed amendment.

@@ -12,7 +12,7 @@ last_updated: 2026-07-22
 > **Operations is the engineering discipline responsible for deploying, operating, observing, maintaining, securing, and evolving software systems throughout their operational lifetime.**
 > 
 
-Within BSDL, Operations ensures that software remains reliable, available, maintainable, observable, secure, and sustainable after it enters production.
+Within Polaris, Operations ensures that software remains reliable, available, maintainable, observable, secure, and sustainable after it enters production.
 
 Software engineering does not end with a successful deployment. Operations provides the continuous feedback required to improve architecture, implementation, and future engineering decisions.
 

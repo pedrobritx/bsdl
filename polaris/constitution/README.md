@@ -1,0 +1,46 @@
+---
+title: Polaris Constitution
+owner: CEO
+status: Active
+last_updated: 2026-07-22
+---
+
+# 1. Polaris Constitution
+
+Software is the intentional organisation of human knowledge into executable systems that transform reality in service of humanity.
+
+**Polaris** is a constitution for software development, not a mere methodology. It defines the worldview, values, ethical limits, and engineering laws from which lifecycles, architectures, workflows, documentation standards, and AI collaboration patterns are derived.
+
+## How to read this constitution
+
+- [Preamble](preamble.md) explains why Polaris exists.
+- [Foundations](foundations.md) define what software is, what counts as truth, and what values matter.
+- [Constitutional Principles](principles.md) state the non-negotiables.
+- [Engineering Laws](engineering-laws.md) translate principles into operational constraints.
+- [Derived Frameworks](derived-frameworks.md) show how to build lifecycles, architectures, and decisions from those laws.
+- [Reference Implementations](reference-implementations.md) provide templates, heuristics, and examples.
+
+## Constitution Map
+
+```markdown
+Worldview
+  └─ Ontology
+      └─ Axiology
+          └─ Ethics
+              └─ Epistemology
+                  └─ Systems Theory
+                      └─ Engineering Theory
+                          └─ Practices
+```
+
+## Working rule
+
+Any downstream practice must trace back to at least one constitutional principle. If it cannot, it does not belong in Polaris.
+
+## Relationship to Axis
+
+The **Axis** engineering capability (maintained in `pedrobritx/axis`) is the first **derived framework** of this constitution: Polaris states *why and what must hold*; Axis encodes *how a project operates day to day*. When Axis and the constitution conflict, the constitution wins and the conflict is resolved through an ADR.
+
+## Open sections
+
+Governance, Evolution, Compliance amendment procedures are drafted in Notion but not yet ratified here. Until then, changes to any file in `polaris/` are Level 0 decisions (human only, ADR required) per `PROJECT_RULES.md`.

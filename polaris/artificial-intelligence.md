@@ -9,12 +9,12 @@ last_updated: 2026-07-22
 
 ---
 
-> **Artificial Intelligence is the engineering discipline within BSDL that governs the responsible integration of intelligent systems into software engineering, enabling effective collaboration between humans and AI throughout the software lifecycle.**
+> **Artificial Intelligence is the engineering discipline within Polaris that governs the responsible integration of intelligent systems into software engineering, enabling effective collaboration between humans and AI throughout the software lifecycle.**
 > 
 
-Artificial Intelligence in BSDL is not limited to code generation. It encompasses reasoning, knowledge representation, prompt engineering, intelligent automation, validation, governance, and machine-readable engineering knowledge.
+Artificial Intelligence in Polaris is not limited to code generation. It encompasses reasoning, knowledge representation, prompt engineering, intelligent automation, validation, governance, and machine-readable engineering knowledge.
 
-BSDL considers AI an engineering collaborator whose outputs require human judgment, verification, and accountability.
+Polaris considers AI an engineering collaborator whose outputs require human judgment, verification, and accountability.
 
 ---
 
@@ -75,7 +75,7 @@ It enables engineers to leverage intelligent systems without compromising qualit
 ├── AI Agents
 ├── Validation
 ├── Safety
-├── Machine-readable BSDL
+├── Machine-readable Polaris
 └── AI Workflows
 └── Future Directions
 ```
@@ -135,7 +135,7 @@ Topics:
 
 This is one of the newest and most important disciplines.
 
-Rather than focusing only on prompts, BSDL should recognize that high-quality AI depends on high-quality context.
+Rather than focusing only on prompts, Polaris should recognize that high-quality AI depends on high-quality context.
 
 Topics:
 
@@ -190,7 +190,7 @@ Topics:
 
 # Machine-Readable Knowledge
 
-This is the cornerstone of BSDL.
+This is the cornerstone of Polaris.
 
 Topics:
 
@@ -205,7 +205,7 @@ Topics:
 - Semantic Relationships
 - Engineering Metadata
 
-This section explains how BSDL itself becomes consumable by AI systems.
+This section explains how Polaris itself becomes consumable by AI systems.
 
 ---
 
@@ -280,7 +280,7 @@ Topics:
 
 # Future Directions
 
-Preparing BSDL for the next generation of AI.
+Preparing Polaris for the next generation of AI.
 
 Topics:
 
@@ -336,7 +336,7 @@ Machine-readable Metadata
 
 # Human–AI Engineering Loop
 
-BSDL should define its own canonical collaboration model.
+Polaris should define its own canonical collaboration model.
 
 ```
 Problem
@@ -364,9 +364,9 @@ This creates a virtuous cycle: every engineering activity enriches the knowledge
 
 ---
 
-# BSDL AI Maturity Model
+# Polaris AI Maturity Model
 
-One original contribution I'd add to BSDL is an **AI Maturity Model** that organizations and projects can use to assess how deeply and responsibly AI is integrated into their engineering practices.
+One original contribution I'd add to Polaris is an **AI Maturity Model** that organizations and projects can use to assess how deeply and responsibly AI is integrated into their engineering practices.
 
 | Level | Name | Description |
 | --- | --- | --- |
@@ -374,5 +374,5 @@ One original contribution I'd add to BSDL is an **AI Maturity Model** that organ
 | **AI-1** | Assisted | AI is used for isolated tasks such as code completion or drafting documentation. |
 | **AI-2** | Integrated | AI participates across multiple engineering activities with defined workflows and human review. |
 | **AI-3** | Collaborative | AI agents collaborate with engineers using shared context, standards, and knowledge bases. |
-| **AI-4** | Knowledge-Driven | AI operates on structured, machine-readable BSDL knowledge to provide consistent engineering guidance. |
+| **AI-4** | Knowledge-Driven | AI operates on structured, machine-readable Polaris knowledge to provide consistent engineering guidance. |
 | **AI-5** | Adaptive | Human and AI continuously improve one another through feedback, governance, and evolving engineering knowledge. |

@@ -1,4 +1,4 @@
-> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
 
 *Repeatable workflows: what triggers each, and how one feature moves through the company.* — [[Home]]
 
@@ -27,6 +27,6 @@ That five-phase lifecycle is also the column layout of the **Feature Release** b
 ---
 
 **→ In the repository**
-- [playbooks/](https://github.com/pedrobritx/bsf/tree/main/playbooks) — all seven playbooks
+- [playbooks/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/playbooks) — all seven playbooks
 
 See also: [[Recipes]] · [[Project Boards]]

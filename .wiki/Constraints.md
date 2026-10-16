@@ -1,4 +1,4 @@
-> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
 
 *The non-negotiables: rules AI never violates, at any delegation level.* — [[Home]]
 
@@ -25,7 +25,7 @@ A **preference** (`memory/preferences.md`) is a default the AI should follow but
 ---
 
 **→ In the repository**
-- [constraints/](https://github.com/pedrobritx/bsf/tree/main/constraints) — all seven files
+- [constraints/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/constraints) — all seven files
 - [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — §9, constraints supremacy
 
 See also: [[Governance and Delegation]]

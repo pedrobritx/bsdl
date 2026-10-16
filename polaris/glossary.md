@@ -9,18 +9,18 @@ last_updated: 2026-07-22
 
 ---
 
-> **The Glossary is the canonical dictionary of the Britx Software Design Language (BSDL). It defines the official meaning of every term, concept, acronym, and abbreviation used throughout the framework.**
+> **The Glossary is the canonical dictionary of the Polaris. It defines the official meaning of every term, concept, acronym, and abbreviation used throughout the framework.**
 > 
 
 The Glossary establishes a shared vocabulary that ensures consistent communication between engineers, teams, organizations, and AI systems.
 
-Each term has a single authoritative definition, preventing ambiguity and enabling interoperability across the entire BSDL knowledge base.
+Each term has a single authoritative definition, preventing ambiguity and enabling interoperability across the entire Polaris knowledge base.
 
 ---
 
 # Purpose
 
-The Glossary exists to provide precise, consistent, and authoritative definitions for every concept used within BSDL.
+The Glossary exists to provide precise, consistent, and authoritative definitions for every concept used within Polaris.
 
 It serves as the semantic foundation upon which all other disciplines are built.
 
@@ -34,8 +34,8 @@ It serves as the semantic foundation upon which all other disciplines are built.
 - Support machine-readable knowledge.
 - Improve communication.
 - Enable semantic search.
-- Connect related concepts across BSDL.
-- Preserve conceptual consistency as BSDL evolves.
+- Connect related concepts across Polaris.
+- Preserve conceptual consistency as Polaris evolves.
 
 ---
 
@@ -78,7 +78,7 @@ It serves as the semantic foundation upon which all other disciplines are built.
 
 # Core Concepts
 
-The fundamental vocabulary of BSDL.
+The fundamental vocabulary of Polaris.
 
 Examples:
 
@@ -312,7 +312,7 @@ Examples:
 
 # Symbols
 
-Engineering notation used across BSDL.
+Engineering notation used across Polaris.
 
 Examples:
 
@@ -400,11 +400,11 @@ This effectively turns the glossary into a **semantic knowledge graph**, allowin
 
 # Canonical Vocabulary Levels
 
-One feature I'd add to distinguish BSDL is a classification that indicates the status of each term within the framework:
+One feature I'd add to distinguish Polaris is a classification that indicates the status of each term within the framework:
 
 | Level | Meaning |
 | --- | --- |
-| **Core** | Fundamental term used throughout BSDL. |
+| **Core** | Fundamental term used throughout Polaris. |
 | **Domain** | Specific to a particular engineering discipline (e.g., Architecture, AI, Operations). |
 | **External** | Adopted from an external standard or body of knowledge (e.g., UML, HTTP, OAuth). |
 | **Experimental** | New terminology under evaluation and subject to change. |

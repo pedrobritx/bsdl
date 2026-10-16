@@ -1,4 +1,4 @@
-> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical BSF descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
 
 *How the company learns and remembers across sessions, projects, and models.* — [[Home]]
 
@@ -30,7 +30,7 @@ The repository is a **graph, not a tree**. Each document owns one subject and li
 ---
 
 **→ In the repository**
-- [memory/](https://github.com/pedrobritx/bsf/tree/main/memory) — the four files
+- [memory/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/memory) — the four files
 - [knowledge/graph.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/knowledge/graph.md) — graph rules and hubs
 - [knowledge/glossary.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/knowledge/glossary.md) — canonical terms
 

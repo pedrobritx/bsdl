@@ -7,25 +7,25 @@ last_updated: 2026-07-22
 
 # 11. About
 
-> **The About section provides historical, legal, and contextual information about the Britx Software Design Language (BSDL).**
+> **The About section provides historical, legal, and contextual information about the Polaris.**
 > 
 
-Unlike the engineering disciplines, the About section explains the origins, purpose, authorship, licensing, and philosophy behind BSDL. It serves as the institutional memory of the project, helping readers understand not only *what* BSDL is, but also *why* it exists.
+Unlike the engineering disciplines, the About section explains the origins, purpose, authorship, licensing, and philosophy behind Polaris. It serves as the institutional memory of the project, helping readers understand not only *what* Polaris is, but also *why* it exists.
 
 ---
 
 # Purpose
 
-The About section exists to preserve the identity, history, and governance context of BSDL.
+The About section exists to preserve the identity, history, and governance context of Polaris.
 
-It documents the project's origins, acknowledges its influences, recognizes contributors, and provides the information necessary to understand BSDL as an open, evolving body of knowledge.
+It documents the project's origins, acknowledges its influences, recognizes contributors, and provides the information necessary to understand Polaris as an open, evolving body of knowledge.
 
 ---
 
 # Objectives
 
 - Introduce the project and its creator.
-- Document the history of BSDL.
+- Document the history of Polaris.
 - Recognize influences and inspirations.
 - Explain licensing and usage rights.
 - Acknowledge contributors.
@@ -62,7 +62,7 @@ It documents the project's origins, acknowledges its influences, recognizes cont
 
 # 👤 Author
 
-Information about the creator and primary maintainer of BSDL.
+Information about the creator and primary maintainer of Polaris.
 
 ### Topics
 
@@ -84,13 +84,13 @@ Suggested fields:
 - LinkedIn
 - Contact Email
 
-As BSDL grows, this page can evolve from a single author profile into a maintainers directory.
+As Polaris grows, this page can evolve from a single author profile into a maintainers directory.
 
 ---
 
 # 📚 History
 
-The story of how BSDL came to exist.
+The story of how Polaris came to exist.
 
 ### Topics
 
@@ -126,7 +126,7 @@ This page should focus on **why** major decisions were made, not just when they 
 
 # 💡 Inspirations
 
-Documents the ideas, communities, standards, and works that influenced BSDL.
+Documents the ideas, communities, standards, and works that influenced Polaris.
 
 Possible inspirations include:
 
@@ -168,13 +168,13 @@ Possible inspirations include:
 - Knowledge Graphs
 - Ontologies
 
-The purpose is not to claim originality where ideas already exist, but to acknowledge how BSDL synthesizes them into a unified framework.
+The purpose is not to claim originality where ideas already exist, but to acknowledge how Polaris synthesizes them into a unified framework.
 
 ---
 
 # 📄 License
 
-Defines how BSDL may be used, modified, and redistributed.
+Defines how Polaris may be used, modified, and redistributed.
 
 ### Topics
 
@@ -187,18 +187,18 @@ Defines how BSDL may be used, modified, and redistributed.
 - Trademark Policy *(optional)*
 - Citation Guidance
 
-If BSDL is open source, this page should explain:
+If Polaris is open source, this page should explain:
 
 - What users are free to do.
 - What requires attribution.
-- How derivative works should reference BSDL.
+- How derivative works should reference Polaris.
 - How official releases are distinguished from forks.
 
 ---
 
 # 🙏 Acknowledgements
 
-Recognizes the people, communities, organizations, and projects that contributed to BSDL.
+Recognizes the people, communities, organizations, and projects that contributed to Polaris.
 
 Possible categories:
 
@@ -210,7 +210,7 @@ Possible categories:
 - Research Communities
 - Educational Institutions
 
-As the project matures, this page becomes an historical record of the community that shaped BSDL.
+As the project matures, this page becomes an historical record of the community that shaped Polaris.
 
 ---
 
@@ -293,14 +293,14 @@ Continuous Evolution
 
 ---
 
-# BSDL Identity
+# Polaris Identity
 
 One feature I'd add is a dedicated **Identity** subsection that serves as the project's "business card." Rather than scattering this information across multiple pages, it centralizes the framework's essential metadata.
 
 | Field | Value |
 | --- | --- |
-| **Official Name** | Britx Software Design Language |
-| **Abbreviation** | BSDL |
+| **Official Name** | Polaris |
+| **Abbreviation** | Polaris |
 | **Type** | Software Engineering Framework & Knowledge System |
 | **Maintained By** | Britx |
 | **Current Version** | *v1.0* |
@@ -308,5 +308,5 @@ One feature I'd add is a dedicated **Identity** subsection that serves as the pr
 | **Primary Language** | English |
 | Secondary Language | Portuguese |
 | **License** | *(To be defined)* |
-| **Repository** | github.com/pedrobritx/bsdl |
-| **Website** | bsdl.britx.me |
+| **Repository** | github.com/pedrobritx/polaris |
+| **Website** | polaris.britx.me |

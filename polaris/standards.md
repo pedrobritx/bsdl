@@ -7,12 +7,12 @@ last_updated: 2026-07-22
 
 # 4. Standards
 
-> **The Standards define the official engineering conventions, specifications, and normative guidance of the Britx Software Design Language (BSDL).**
+> **The Standards define the official engineering conventions, specifications, and normative guidance of the Polaris.**
 > 
 
 They establish consistent ways of designing, documenting, implementing, validating, and evolving software, ensuring that engineers, teams, and AI systems produce coherent and interoperable artifacts.
 
-Within BSDL, standards are normative documents. They define **how** engineering work should be performed while remaining adaptable to different technologies, programming languages, and organizational contexts.
+Within Polaris, standards are normative documents. They define **how** engineering work should be performed while remaining adaptable to different technologies, programming languages, and organizational contexts.
 
 ---
 
@@ -219,7 +219,7 @@ Topics:
 
 # AI Standards
 
-One of BSDL's distinguishing features.
+One of Polaris's distinguishing features.
 
 Topics:
 
@@ -238,7 +238,7 @@ Topics:
 
 This is something most frameworks don't define.
 
-BSDL should.
+Polaris should.
 
 Topics:
 
@@ -251,13 +251,13 @@ Topics:
 - Tags
 - Knowledge Graph Standards
 
-This enables AI to reason over BSDL consistently.
+This enables AI to reason over Polaris consistently.
 
 ---
 
 # Compliance Standards
 
-Defines what it means to follow BSDL.
+Defines what it means to follow Polaris.
 
 Topics:
 
@@ -287,7 +287,7 @@ Examples:
 
 ---
 
-# BSDL Standard Template
+# Polaris Standard Template
 
 Every standard should follow the same structure.
 
@@ -342,21 +342,21 @@ Every standard should have a classification.
 | **DOC** | Documentation | DOC-001 README Standard |
 | **META** | Metadata | META-002 YAML Schema |
 
-This gives every standard a stable identifier that can be referenced throughout BSDL, documentation, tooling, and AI prompts.
+This gives every standard a stable identifier that can be referenced throughout Polaris, documentation, tooling, and AI prompts.
 
 ---
 
-# BSDL Compliance Levels
+# Polaris Compliance Levels
 
 One original addition I'd make is a **graduated compliance model** instead of a simple "compliant/non-compliant" distinction.
 
 | Level | Name | Description |
 | --- | --- | --- |
-| **Level 0** | Unspecified | No declared adherence to BSDL. |
-| **Level 1** | Aware | Uses BSDL terminology and concepts informally. |
-| **Level 2** | Aligned | Follows selected BSDL standards with documented deviations. |
+| **Level 0** | Unspecified | No declared adherence to Polaris. |
+| **Level 1** | Aware | Uses Polaris terminology and concepts informally. |
+| **Level 2** | Aligned | Follows selected Polaris standards with documented deviations. |
 | **Level 3** | Compliant | Meets all applicable mandatory standards for the project. |
-| **Level 4** | Certified | Independently reviewed against the relevant BSDL standards. |
-| **Level 5** | Reference Implementation | Serves as an exemplary implementation of BSDL and can be used as a teaching and validation model. |
+| **Level 4** | Certified | Independently reviewed against the relevant Polaris standards. |
+| **Level 5** | Reference Implementation | Serves as an exemplary implementation of Polaris and can be used as a teaching and validation model. |
 
 This mirrors how mature engineering standards evolve: not by forcing every project into identical practices, but by providing a transparent, measurable path toward higher levels of consistency and quality. It also gives AI agents a concrete way to understand the expected rigor of a project and tailor their recommendations accordingly.
