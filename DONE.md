@@ -2,7 +2,7 @@
 title: Definition of Done
 owner: QA Engineer
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
 # DONE — Definition of Done
@@ -32,12 +32,12 @@ Nothing is complete until every **applicable** item passes. "Not applicable" mus
 - [ ] Security review for auth/input/secrets surface (`constraints/security.md`)
 
 ### Instrumentation
-- [ ] Analytics events added per `OBSERVABILITY.md`
+- [ ] Evidence of the intended outcome recorded. Analytics is optional and requires a justified purpose, minimal collection and explicit approval; follow `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/OBSERVABILITY.md` if adopted.
 - [ ] Errors reported to the error tracker with useful context
 
 ### Documentation
 - [ ] Owning docs updated in the same PR
-- [ ] `docs/oss/CHANGELOG.md` entry added
+- [ ] `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/oss/CHANGELOG.md` entry added
 - [ ] New reusable pattern? → written back to `recipes/` or `memory/patterns.md`
 
 ### Continuity

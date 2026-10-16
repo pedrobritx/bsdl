@@ -2,7 +2,7 @@
 title: "Constraint: Performance"
 owner: Engineering
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
 # Constraint: Performance
@@ -10,10 +10,10 @@ last_updated: 2026-07-01
 > Constraints are **immutable during execution**. AI never violates them. Changing one requires an ADR + human approval (Level 0).
 
 ## Non-negotiables
-- LCP < 2.5s, INP < 200ms, CLS < 0.1 on production
-- API p95 < 400ms for standard reads
+- Set measurable budgets for the project's actual platform, user tasks and representative hardware.
+- The historical web/API defaults are retained in `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/profiles/web-typescript.md`; adopting another platform does not import web-only metrics.
 - No unbounded client-side lists — paginate or virtualize
-- Bundle budget per route defined in PERFORMANCE.md
+- Record applicable runtime, payload, memory and response budgets in `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/PERFORMANCE.md`.
 
 ## Verification
-> _How compliance is checked (automated where possible)._
+Record the tested workload, device/environment, measurements and limits. Budget declarations are not evidence of measured performance.

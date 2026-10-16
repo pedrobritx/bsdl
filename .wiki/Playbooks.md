@@ -1,16 +1,18 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *Repeatable workflows: what triggers each, and how one feature moves through the company.* — [[Home]]
 
 ## When you say… → the AI follows…
 
 | You say | Playbook | File |
 |---|---|---|
-| "Add the ability to…", "Build a feature…" | New Feature | [new_feature.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/new_feature.md) |
-| "X is broken", "Fix this error" | Bug Fix | [bug_fix.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/bug_fix.md) |
-| "Clean this up", "Restructure without changing behavior" | Refactor | [refactor.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/refactor.md) |
-| "Ship it", "Cut a version" | Release | [release.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/release.md) |
-| "It's slow", "We're over budget on LCP" | Performance Optimization | [performance_optimization.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/performance_optimization.md) |
-| "Audit this", "New sensitive surface" | Security Review | [security_review.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/security_review.md) |
-| "The schema needs to change" | Migration | [migration.md](https://github.com/pedrobritx/bsf/blob/main/playbooks/migration.md) |
+| "Add the ability to…", "Build a feature…" | New Feature | [new_feature.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/new_feature.md) |
+| "X is broken", "Fix this error" | Bug Fix | [bug_fix.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/bug_fix.md) |
+| "Clean this up", "Restructure without changing behavior" | Refactor | [refactor.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/refactor.md) |
+| "Ship it", "Cut a version" | Release | [release.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/release.md) |
+| "It's slow", "We're over budget on LCP" | Performance Optimization | [performance_optimization.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/performance_optimization.md) |
+| "Audit this", "New sensitive surface" | Security Review | [security_review.md](https://github.com/pedrobritx/sentinel/blob/d6fb0eefd63a31054ef0b6047b979c76a0e638f5/playbooks/security_review.md) |
+| "The schema needs to change" | Migration | [migration.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/playbooks/migration.md) |
 
 ## Anatomy of a playbook
 
@@ -25,6 +27,6 @@ That five-phase lifecycle is also the column layout of the **Feature Release** b
 ---
 
 **→ In the repository**
-- [playbooks/](https://github.com/pedrobritx/bsf/tree/main/playbooks) — all seven playbooks
+- [playbooks/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/playbooks) — all seven playbooks
 
 See also: [[Recipes]] · [[Project Boards]]

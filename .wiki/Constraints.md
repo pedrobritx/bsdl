@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *The non-negotiables: rules AI never violates, at any delegation level.* — [[Home]]
 
 ## Constraint ≠ preference
@@ -8,13 +10,13 @@ A **preference** (`memory/preferences.md`) is a default the AI should follow but
 
 | File | Most representative rule |
 |---|---|
-| [security.md](https://github.com/pedrobritx/bsf/blob/main/constraints/security.md) | No secrets in code, logs, or prompts — ever. |
-| [coding_standards.md](https://github.com/pedrobritx/bsf/blob/main/constraints/coding_standards.md) | TypeScript strict everywhere; Zod validates every external boundary. |
-| [cost.md](https://github.com/pedrobritx/bsf/blob/main/constraints/cost.md) | Any new recurring cost is L0 — no exceptions, no trials that auto-convert. |
-| [performance.md](https://github.com/pedrobritx/bsf/blob/main/constraints/performance.md) | LCP < 2.5s, INP < 200ms, CLS < 0.1 in production. |
-| [accessibility.md](https://github.com/pedrobritx/bsf/blob/main/constraints/accessibility.md) | WCAG 2.2 AA minimum; never rely on color alone to convey state. |
-| [privacy.md](https://github.com/pedrobritx/bsf/blob/main/constraints/privacy.md) | PII flagged in the data dictionary and encrypted at rest; GDPR + LGPD by default. |
-| [legal.md](https://github.com/pedrobritx/bsf/blob/main/constraints/legal.md) | Every dependency must have a compatible license. |
+| [security.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/security.md) | No secrets in code, logs, or prompts — ever. |
+| [coding_standards.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/coding_standards.md) | TypeScript strict everywhere; Zod validates every external boundary. |
+| [cost.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/cost.md) | Any new recurring cost is L0 — no exceptions, no trials that auto-convert. |
+| [performance.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/performance.md) | LCP < 2.5s, INP < 200ms, CLS < 0.1 in production. |
+| [accessibility.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/accessibility.md) | WCAG 2.2 AA minimum; never rely on color alone to convey state. |
+| [privacy.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/privacy.md) | PII flagged in the data dictionary and encrypted at rest; GDPR + LGPD by default. |
+| [legal.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/constraints/legal.md) | Every dependency must have a compatible license. |
 
 ## Constraints supremacy
 
@@ -23,7 +25,7 @@ A **preference** (`memory/preferences.md`) is a default the AI should follow but
 ---
 
 **→ In the repository**
-- [constraints/](https://github.com/pedrobritx/bsf/tree/main/constraints) — all seven files
-- [PROJECT_RULES.md](https://github.com/pedrobritx/bsf/blob/main/PROJECT_RULES.md) — §9, constraints supremacy
+- [constraints/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/constraints) — all seven files
+- [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — §9, constraints supremacy
 
 See also: [[Governance and Delegation]]

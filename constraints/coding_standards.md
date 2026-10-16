@@ -2,31 +2,25 @@
 title: "Constraint: Coding Standards"
 owner: Engineering
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-15
 ---
 
 # Constraint: Coding Standards
 
 > Constraints are **immutable during execution**. AI never violates them. Changing one requires an ADR + human approval (L0).
 
-## Language & typing
-- TypeScript everywhere, `strict: true`. No `any` without an inline justification comment.
-- **Zod** validates every external boundary: API inputs, env vars, webhooks, LLM outputs.
-
-## React / Next.js
-- **Server Components by default**; `"use client"` only when interaction demands it.
-- Prefer **Server Actions** for mutations.
-- Shared client state: **Zustand**. **Never Context API for app state** (fine for true dependency injection like themes).
-- Tailwind for styling; design tokens from `DESIGN_SYSTEM.md` — no magic values.
-
-## Libraries
-- Dates: `date-fns` or Temporal. **Never `moment.js`.**
-- Before adding any dependency: Decision Engine check + license check + "can the platform do this natively?"
+## Universal outcomes
+- Preserve the repository's language, framework and architecture unless a change is explicitly justified and approved.
+- Use strong typing where the language supports it; justify untyped escape hatches.
+- Validate untrusted inputs at system boundaries with the tools appropriate to the adopted language and platform.
+- Keep responsibilities explicit, state transitions understandable and public contracts small.
+- Prefer native platform capabilities before adding dependencies; check maintenance and licence compatibility.
+- Technology-specific defaults belong in an explicitly adopted project profile. See `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/profiles/web-typescript.md`.
 
 ## Structure
-- No hardcoded user-facing strings (LOCALIZATION).
-- Errors follow the taxonomy in `ERROR_HANDLING.md` — no naked `throw new Error("oops")` reaching users.
+- Keep translatable UI content separate from application logic; follow the project's localisation conventions.
+- Errors follow the project's documented taxonomy in `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/ERROR_HANDLING.md`; expose useful user-facing errors without leaking sensitive details.
 - Idempotent scripts; versioned config; small pure functions over clever abstractions.
 
 ## Verification
-- ESLint + typecheck in CI (`WORKFLOWS.md`); reviewer checks this list in every PR.
+- Run the repository's relevant build, type, lint and behavioural checks. State what ran and what remains unverified. Do not assume ESLint or a particular toolchain exists.

@@ -1,6 +1,8 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *The ten principles and why each exists.* — [[Home]]
 
-The canonical list lives in the repo ([README.md](https://github.com/pedrobritx/bsf/blob/main/README.md)); this page is the rationale.
+The canonical list lives in the repo ([README.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/README.md)); this page is the rationale.
 
 **1. AI-First.** Every project must be understandable by humans *and* AI. If context lives only in someone's head or a chat scrollback, the next session — human or machine — starts blind. Structure beats tribal knowledge.
 
@@ -20,12 +22,12 @@ The canonical list lives in the repo ([README.md](https://github.com/pedrobritx/
 
 **9. Continuous Learning.** Every project feeds back lessons, mistakes, patterns, and preferences into `memory/`, and recurring decisions get promoted into the Decision Engine. The company gets smarter with every project.
 
-**10. Framework Over Tooling.** BSF holds the memory, standards, and decision process — not the AI tool. Replace Claude with anything else and the company keeps functioning. This is why BSF is plain Markdown in a git repo.
+**10. Framework Over Tooling.** Axis holds the memory, standards, and decision process — not the AI tool. Replace Claude with anything else and the company keeps functioning. This is why Axis is plain Markdown in a git repo.
 
 ---
 
 **→ In the repository**
-- [README.md](https://github.com/pedrobritx/bsf/blob/main/README.md) — the canonical ten
-- [PROJECT_RULES.md](https://github.com/pedrobritx/bsf/blob/main/PROJECT_RULES.md) — how the principles become rules
+- [README.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/README.md) — the canonical ten
+- [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — how the principles become rules
 
 See also: [[Governance and Delegation]] · [[Document Standards]]

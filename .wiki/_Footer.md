@@ -1,1 +1,1 @@
-BSF v0.1.0 · [Repository](https://github.com/pedrobritx/bsf) · [[Home]]
+Polaris governance · [Repository](https://github.com/pedrobritx/polaris) · [Axis engineering](https://github.com/pedrobritx/axis) · [[Home]]

@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *How the company decides: the org model and the autonomy system.* — [[Home]]
 
 ## The org chart
@@ -51,7 +53,7 @@ Escalation: L2 — recommend and confirm
 ---
 
 **→ In the repository**
-- [PROJECT_RULES.md](https://github.com/pedrobritx/bsf/blob/main/PROJECT_RULES.md) — governance model, levels, hard L0 list, proposal format (§1–§3)
-- [agents/](https://github.com/pedrobritx/bsf/tree/main/agents) — the org chart as files
+- [PROJECT_RULES.md](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md) — governance model, levels, hard L0 list, proposal format (§1–§3)
+- [agents/](https://github.com/pedrobritx/polaris/tree/refactor/polaris-capability-extraction/agents) — the org chart as files
 
 See also: [[Agents and Roles]] · [[Decision Engine and ADRs]]

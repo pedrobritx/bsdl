@@ -1,3 +1,5 @@
+> Current migration note: Polaris owns governance; Axis engineering/project templates, Meridian design and Sentinel security guidance are independently usable. Current operating rules permit reversible work within approved scope; Draft policies grant no authority. Historical Axis descriptions below are interpreted through [current operating rules](https://github.com/pedrobritx/polaris/blob/refactor/polaris-capability-extraction/PROJECT_RULES.md).
+
 *Standard implementations: how this company builds common features.* — [[Home]]
 
 ## The philosophy
@@ -14,20 +16,20 @@ The authentication recipe is the worked example. Before implementing auth, seven
 
 | Recipe | File |
 |---|---|
-| Authentication | [authentication.md](https://github.com/pedrobritx/bsf/blob/main/recipes/authentication.md) |
-| AI Chat | [ai_chat.md](https://github.com/pedrobritx/bsf/blob/main/recipes/ai_chat.md) |
-| Background Jobs | [background_jobs.md](https://github.com/pedrobritx/bsf/blob/main/recipes/background_jobs.md) |
-| CRUD | [crud.md](https://github.com/pedrobritx/bsf/blob/main/recipes/crud.md) |
-| File Uploads | [file_uploads.md](https://github.com/pedrobritx/bsf/blob/main/recipes/file_uploads.md) |
-| Notifications | [notifications.md](https://github.com/pedrobritx/bsf/blob/main/recipes/notifications.md) |
-| Payments | [payments.md](https://github.com/pedrobritx/bsf/blob/main/recipes/payments.md) |
-| Search | [search.md](https://github.com/pedrobritx/bsf/blob/main/recipes/search.md) |
+| Authentication | [authentication.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/authentication.md) |
+| AI Chat | [ai_chat.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/ai_chat.md) |
+| Background Jobs | [background_jobs.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/background_jobs.md) |
+| CRUD | [crud.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/crud.md) |
+| File Uploads | [file_uploads.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/file_uploads.md) |
+| Notifications | [notifications.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/notifications.md) |
+| Payments | [payments.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/payments.md) |
+| Search | [search.md](https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/recipes/search.md) |
 
 New patterns earn their way onto this shelf: a technique proven in real work goes to `memory/patterns.md` first, and gets promoted to a recipe when it becomes a standard ([[Memory and Knowledge]]).
 
 ---
 
 **→ In the repository**
-- [recipes/](https://github.com/pedrobritx/bsf/tree/main/recipes) — all recipes
+- [recipes/](https://github.com/pedrobritx/axis/tree/2cb53bfc96824c71d8b57c5e5340f29f1c41ccb5/recipes) — all recipes
 
 See also: [[Decision Engine and ADRs]]
