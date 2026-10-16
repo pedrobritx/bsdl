@@ -1,11 +1,13 @@
 ---
 title: Pre-migration forensic refactor handoff
 owner: Software Architect
-status: Proposed
-last_updated: 2026-10-15
+status: Superseded
+last_updated: 2026-10-16
 ---
 
 # Pre-migration forensic refactor handoff
+
+Superseded by ADR-004 (extraction), ADR-005 (identities) and ADR-006 (optional composition). The pre-migration notes below are historical and do not describe current review state.
 
 ## State
 Local review candidate only. The original Polaris and Meridian checkouts and all external systems remain unchanged. The earlier ownership map is superseded for decision-making by the forensic ownership review; it must not be used as an extraction allowlist.

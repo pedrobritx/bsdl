@@ -1,27 +1,12 @@
 ---
-title: Knowledge Graph
-owner: All
+title: Polaris context graph
+owner: Maintainer
 status: Active
-last_updated: 2026-07-01
+last_updated: 2026-10-16
 ---
 
-# Knowledge Graph
+# Context owners
 
-The repository is a **graph, not a tree**. Each document owns one subject and links to the rest.
+Read [the Constitution](../polaris/constitution/README.md) for commitments, [operating rules](../PROJECT_RULES.md) for authority, [composition](../integration/README.md) for ownership and handoffs, [ADRs](../decisions/README.md) for decisions, and [operational memory](../memory/README.md) for observed lessons.
 
-## Dependency chain (product → data)
-```
-VISION → PRODUCT → USER_STORIES → UX_FLOWS → SCREENS
-  → DESIGN_SYSTEM components → API → SCHEMA → DATA_DICTIONARY
-```
-
-## Hubs
-- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/engineering/ARCHITECTURE.md` — technical hub. Names every system; links to owners.
-- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/product/PRODUCT.md` — product hub.
-- `https://github.com/pedrobritx/axis/blob/699d2599ab9c69434bfed3a12b1ff226397421fe/docs/README.md` — global index.
-
-## Rules
-1. One source of truth — information lives in exactly one document.
-2. Reference, don't duplicate — link to the owning document.
-3. Every document declares `depends_on` and `related` in front matter.
-4. `automation/validate_docs.py` checks links and front matter in CI.
+The adopting project owns its product/source/evidence graph. Axis’s optional documentation catalogue describes potential project documents; it is not Polaris’s architecture or a required project folder layout.

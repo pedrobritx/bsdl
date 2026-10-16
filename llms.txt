@@ -30,6 +30,7 @@ Canonical text lives in this repository under `polaris/`. The wiki and website a
 - [START_HERE](START_HERE.md): mandatory AI onboarding sequence
 - [PROJECT_RULES](PROJECT_RULES.md): governance, delegation levels, documentation standards
 - [Agents](agents/README.md): AI role definitions
+- [Composition](integration/README.md): repository ownership, request handoffs and explicit discipline opt-outs
 - [Decision Engine](decisions/README.md): pre-made policy answers
 
 ## Optional

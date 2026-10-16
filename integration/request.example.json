@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "editor-001",
+  "objective": "Add an accessible document editor to the adopting product",
+  "context": ["AGENTS.md", "README.md", "Existing editor source and product decisions"],
+  "acceptance_criteria": [
+    "Existing documents remain readable",
+    "Keyboard users can edit and save with visible feedback",
+    "Only authorised users can change a document"
+  ],
+  "disciplines": ["axis", "meridian", "sentinel"]
+}
