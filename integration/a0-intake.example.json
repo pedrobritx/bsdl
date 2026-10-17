@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "id": "example-editor-001",
+  "objective": "Add an accessible editor with scoped autosave",
+  "context": [
+    "README.md"
+  ],
+  "acceptance_criteria": [
+    "Existing documents remain readable",
+    "Keyboard interaction provides visible save feedback",
+    "Only authorized users can modify the document"
+  ],
+  "signals": {
+    "implementation": true,
+    "architecture": true,
+    "interface": true,
+    "security": true,
+    "independent_workstreams": false,
+    "shared_interfaces": true,
+    "consequential": false
+  },
+  "host": {
+    "name": "codex",
+    "subagents": false,
+    "isolated_worktrees": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "request_id": "example-editor-001",
+  "project": "example/product",
+  "source_revision": "0000000000000000000000000000000000000000",
+  "execution": "not_started",
+  "verification": "not_run",
+  "approval": "not_requested",
+  "checks": [],
+  "artifacts": [],
+  "documentation": [],
+  "coverage_gaps": [],
+  "unresolved_findings": []
+}
