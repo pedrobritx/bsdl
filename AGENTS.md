@@ -15,6 +15,8 @@ Polaris holds the Polaris Constitution (canonical in `polaris/`) and the governa
 2. Read `polaris/constitution/README.md` and its six subpages — these are the non-negotiables every recommendation must trace back to.
 3. Read `integration/README.md`. Inspect the adopting project, select only its enabled/requested disciplines and read their entry points. Polaris has no local engineering `playbooks/` directory.
 
+4. For experimental A0 contextual routing, read `integration/a0.md` and the optional repo-local `.agents/skills/constellation-a0/SKILL.md`. They are advisory extensions to the v1 planner and cannot authorize execution.
+
 ## Standing rules (summary — authoritative text in `PROJECT_RULES.md`)
 
 - Apply L2 to unresolved consequential decisions. Proceed with reversible work already authorised within the task scope; preserve explicit human gates.
