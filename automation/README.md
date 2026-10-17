@@ -14,3 +14,5 @@ Polaris also supplies the read-only `automation/constellation.py` planner. Read 
 ## Experimental A0 routing
 
 `python3 automation/a0.py route --config <project-config> --intake <host-inspected-intake> --workspace <checkout-parent> --product-root <adopter-checkout>` recommends relevant discipline coverage and a permissible orchestration mode, while reusing the existing v1 planner. `python3 automation/a0.py check-result --result <reported-result>` validates a self-reported result structure **without attesting to performed checks**. See [A0 contract](../integration/a0.md) and [Codex skill](../.agents/skills/constellation-a0/SKILL.md). These commands are read-only, not an agent runtime.
+
+For a limited **local integrity audit** of already captured check receipts and stdout/stderr hashes, run `python3 automation/a0_evidence.py --result <result.json> --product-root <clean-adopter-checkout> --evidence-root <private-receipts-directory>`. This detects stale Git HEAD and modified/missing local evidence, but cannot prove external command execution or grant approvals. See [A0 guidance](../integration/a0.md).
